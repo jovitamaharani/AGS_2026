@@ -21,7 +21,7 @@ public class tugas1 {
         };
 
         System.out.print("Masukkan Kode Plat (A/B/D/E/F/G/H/L/N/T): ");
-        char inputPlat = input.next().charAt(0);
+        char inputPlat = input.next().toUpperCase().charAt(0);
 
         int index = -1;
         for (int i = 0; i < KODE.length; i++) {

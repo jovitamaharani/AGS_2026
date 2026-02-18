@@ -11,7 +11,6 @@ public class perulangan {
         nim = jovita.nextLong();
 
         n = nim % 100;
-        System.out.println(n);
 
         if (n < 10) {
             n += 10;
