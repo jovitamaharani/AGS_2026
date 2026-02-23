@@ -24,6 +24,14 @@ Pertanyaan:
     - method nilaiKinerja() Mengevaluasi nilai atribut ipk menggunakan struktur if-else. Kriteria: ≥ 3.5 (sangat baik), ≥ 3.0 (baik), ≥ 2.0 (cukup), di bawah itu (kurang). Method me-return data tipe String
 
 ## 2.2 Percobaan 2: Instansiasi Object, serta Mengakses Atribut dan Method
+![prak2](img/prak2.png)
 
-
+Pertanyaan:
+1. Pada class MahasiswaMain, tunjukkan baris kode program yang digunakan untuk proses
+instansiasi! Apa nama object yang dihasilkan?
+    - Baris instansiasi: Mahasiswa mhs1 = new Mahasiswa();. Nama object adalah mhs1
+2. Bagaimana cara mengakses atribut dan method dari suatu objek?
+    - Menggunakan operator titik (.) setelah nama objek contoh: mhs1.nama
+3. Mengapa hasil output pemanggilan method tampilkanInformasi() pertama dan kedua berbeda?
+    - Karena ada pemanggilan method ubahKelas() dan updateIpk() yang mengubah nilai atribut pada objek tersebut sebelum pemanggilan kedua
 
