@@ -18,7 +18,11 @@ public class Mahasiswa17 {
     }
 
     void updateIpk(double ipkBaru) {
-        ipk = ipkBaru;
+        if (ipkBaru >= 0.0 && ipkBaru <= 4.0) {
+            ipk = ipkBaru;
+        } else {
+            System.out.println("IPK tidak valid. Harus antara 0.0 dan 4.0");
+        }
     }
 
     String nilaiKinerja() {
@@ -33,17 +37,4 @@ public class Mahasiswa17 {
         }
     }
 
-    // public static void main(String[] args) {
-    //     Mahasiswa17 mhs1 = new Mahasiswa17();
-    //     mhs1.nama = "Jovita Maharani";
-    //     mhs1.nim = "54657878";
-    //     mhs1.kelas = "TI - 1F";
-    //     mhs1.ipk = 3.90;
-
-    //     mhs1.tampilkanInformasi();
-
-    //     Mahasiswa17 mhs2 = new Mahasiswa17("Nabila", "545678923", 3.25, "TI - 1C");
-    //     mhs2.updateIpk(3.30);
-    //     mhs2.tampilkanInformasi();
-    // }
 }
