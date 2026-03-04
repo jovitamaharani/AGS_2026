@@ -12,7 +12,7 @@ public class MahasiswaDemo17 {
             arrayOfMahasiswa[i] = new Mahasiswa17();
 
             System.out.println("Masukan data mahasiswa ke-"+ (i+1));
-            System.out.print("NIM   : ");
+            System.out.print("NIM    : ");
             arrayOfMahasiswa[i].nim = jovita.nextLine();
             System.out.print("Nama   : ");
             arrayOfMahasiswa[i].nama = jovita.nextLine();
@@ -25,11 +25,8 @@ public class MahasiswaDemo17 {
         }
 
         for (int i = 0; i < 3; i++) {
-            System.out.println("Data mahasiswa ke-"+ (i+1));
-            System.out.println("NIM    : "+ arrayOfMahasiswa[i].nim);
-            System.out.println("Nama   : "+ arrayOfMahasiswa[i].nama);
-            System.out.println("Kelas  : "+ arrayOfMahasiswa[i].kelas);
-            System.out.println("IPK    : "+ arrayOfMahasiswa[i].ipk);
+            System.out.println("Data mahasiswa ke-" + (i + 1));
+            arrayOfMahasiswa[i].cetakInfo();
             System.out.println("---------------------------------");
         }
     }
