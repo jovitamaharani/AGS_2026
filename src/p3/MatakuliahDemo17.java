@@ -4,11 +4,14 @@ import java.util.Scanner;
 public class MatakuliahDemo17 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Matakuliah17[] arrayOfMatakuliah = new Matakuliah17[3];
         String kode, nama, dummy;
         int sks, jumlahJam;
 
-        for (int i = 0; i < 3; i++) {
+        System.out.print("Masukkan jumlah matakuliah: ");
+        int jml = Integer.parseInt(sc.nextLine());
+        Matakuliah17[] arrayOfMatakuliah = new Matakuliah17[jml];
+
+        for (int i = 0; i < jml; i++) {
             System.out.println("Masukkan Data Matakuliah ke-" + (i + 1));
             System.out.print("Kode       : ");
             kode = sc.nextLine();
@@ -21,17 +24,16 @@ public class MatakuliahDemo17 {
             dummy = sc.nextLine();
             jumlahJam = Integer.parseInt(dummy);
             System.out.println("---------------------------------");
-
-            arrayOfMatakuliah[i] = new Matakuliah17(kode, nama, sks, jumlahJam);
+            
+            arrayOfMatakuliah[i] = new Matakuliah17();
+            arrayOfMatakuliah[i].tambahData(kode, nama, sks, jumlahJam);
         }
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < jml; i++) {
             System.out.println("Data Matakuliah ke-" + (i + 1));
-            System.out.println("Kode       : " + arrayOfMatakuliah[i].kode);
-            System.out.println("Nama       : " + arrayOfMatakuliah[i].nama);
-            System.out.println("SKS        : " + arrayOfMatakuliah[i].sks);
-            System.out.println("Jumlah Jam : " + arrayOfMatakuliah[i].jumlahJam);
+            arrayOfMatakuliah[i].cetakInfo();
             System.out.println("---------------------------------");
         }
     }
+    
 }

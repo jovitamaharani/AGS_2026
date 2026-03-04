@@ -83,5 +83,205 @@ IPK    : 3.9
 
 Pertanyaan
 1. Tambahkan method cetakInfo() pada class Mahasiswa kemudian modifikasi kode program pada langkah no 3.
-    -
+    - ```
+         Masukan data mahasiswa ke-1
+NIM    : 355 
+Nama   : fh
+Kelas  : 5
+IPK    : 4 
+---------------------------------
+Masukan data mahasiswa ke-2
+NIM    : 5777776
+Nama   : fytf
+Kelas  : 6
+IPK    : 3
+---------------------------------
+Masukan data mahasiswa ke-3
+NIM    : drgfgt
+Nama   : yhr
+Kelas  : 2
+IPK    : 4
+---------------------------------
+Data mahasiswa ke-1
+Cetak info mahasiswa
+Data mahasiswa ke-1
+NIM    : 355
+Nama   : fh
+Kelas  : 5
+IPK    : 4.0
+Data mahasiswa ke-2
+NIM    : 355
+Nama   : fh
+Kelas  : 5
+IPK    : 4.0
+Data mahasiswa ke-3
+NIM    : 355
+Nama   : fh
+Kelas  : 5
+IPK    : 4.0
+---------------------------------
+Data mahasiswa ke-2
+Cetak info mahasiswa
+Data mahasiswa ke-1
+NIM    : 5777776
+Nama   : fytf
+Kelas  : 6
+IPK    : 3.0
+Data mahasiswa ke-2
+NIM    : 5777776
+Nama   : fytf
+Kelas  : 6
+IPK    : 3.0
+Data mahasiswa ke-3
+NIM    : 5777776
+Nama   : fytf
+Kelas  : 6
+IPK    : 3.0
+---------------------------------
+Data mahasiswa ke-3
+Cetak info mahasiswa
+Data mahasiswa ke-1
+NIM    : drgfgt
+Nama   : yhr
+Kelas  : 2
+IPK    : 4.0
+Data mahasiswa ke-2
+NIM    : drgfgt
+Nama   : yhr
+Kelas  : 2
+IPK    : 4.0
+Data mahasiswa ke-3
+NIM    : drgfgt
+Nama   : yhr
+Kelas  : 2
+IPK    : 4.0
+---------------------------------
+
+E:\Java\AGS_2026>
+      ```
 2. Misalkan Anda punya array baru bertipe array of Mahasiswa dengan nama myArrayOfMahasiswa. Mengapa kode berikut menyebabkan error?
+    - karena kode tersebut mencoba mengakses indeks ke-0 dari array myArrayOfMahasiswa yang belum diinisialisasi, sehingga menyebabkan NullPointerException.
+
+## 3.4 Constructor Berparameter
+```
+Masukkan Data Matakuliah ke-1
+Kode       : 1
+Nama       : df
+SKS        : 3
+Jumlah Jam : 3
+---------------------------------
+Masukkan Data Matakuliah ke-2
+Kode       : 2 
+Nama       : gv
+SKS        : 4
+Jumlah Jam : 4
+---------------------------------
+Masukkan Data Matakuliah ke-3
+Kode       : 3
+Nama       : vgdf
+SKS        : 6
+Jumlah Jam : 2
+---------------------------------
+Data Matakuliah ke-1
+Kode       : 1
+Nama       : df
+SKS        : 3
+Jumlah Jam : 3
+---------------------------------
+Data Matakuliah ke-2
+Kode       : 2
+Nama       : gv
+SKS        : 4
+Jumlah Jam : 4
+---------------------------------
+Data Matakuliah ke-3
+Kode       : 3
+Nama       : vgdf
+SKS        : 6
+Jumlah Jam : 2
+---------------------------------
+
+E:\Java\AGS_2026>
+```
+
+Pertanyaan
+1. Apakah suatu class dapat memiliki lebih dari 1 constructor? Jika iya, berikan contohnya
+    -iya, suatu class dapat memiliki lebih dari 1 constructor, ini disebut constructor overloading. Contohnya:
+    public Matakuliah17() { }
+    public Matakuliah17(String kd, String nm) { }
+2. Tambahkan method tambahData() pada class Matakuliah, kemudian gunakan method
+tersebut di class MatakuliahDemo untuk menambahkan data Matakuliah
+    - ```
+    Masukkan jumlah matakuliah: 1
+Masukkan Data Matakuliah ke-1
+Kode       : 1
+Nama       : aaa
+SKS        : 2
+Jumlah Jam : 2
+---------------------------------
+Data Matakuliah ke-1
+Kode       : 1
+Nama       : aaa
+SKS        : 2
+Jumlah Jam : 2
+---------------------------------
+
+    ```
+3. Tambahkan method cetakInfo() pada class Matakuliah, kemudian gunakan method
+tersebut di class MatakuliahDemo untuk menampilkan data hasil inputan di layar
+    - ```
+Masukkan Data Matakuliah ke-1
+Kode       : 1
+Nama       : ddddd
+SKS        : 2
+Jumlah Jam : 2
+---------------------------------
+Masukkan Data Matakuliah ke-2
+Kode       : 2
+Nama       : bbbb
+SKS        : 3
+Jumlah Jam : 3
+---------------------------------
+Masukkan Data Matakuliah ke-3
+Kode       : 3
+Nama       : aaa
+SKS        : 4
+Jumlah Jam : 4
+---------------------------------
+Data Matakuliah ke-1
+Kode       : 1
+Nama       : ddddd
+SKS        : 2
+Jumlah Jam : 2
+---------------------------------
+Data Matakuliah ke-2
+Kode       : 2
+Nama       : bbbb
+SKS        : 3
+Jumlah Jam : 3
+---------------------------------
+Data Matakuliah ke-3
+Kode       : 3
+Nama       : aaa
+SKS        : 4
+Jumlah Jam : 4
+---------------------------------
+    ```
+4. Modifikasi kode program pada class MatakuliahDemo agar panjang (jumlah elemen) dari
+array of object Matakuliah ditentukan oleh user melalui input dengan Scanner
+    - ```
+    Masukkan jumlah matakuliah: 1
+Masukkan Data Matakuliah ke-1
+Kode       : 1
+Nama       : ksjfhui
+SKS        : 3
+Jumlah Jam : 4
+---------------------------------
+Data Matakuliah ke-1
+Kode       : 1
+Nama       : ksjfhui
+SKS        : 3
+Jumlah Jam : 4
+---------------------------------
+
+    ```
