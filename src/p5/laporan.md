@@ -87,3 +87,23 @@ Masukan keuntungan ke-5: 50
 Total keuntungan menggunakan Bruteforce: 150.0
 Total keuntungan menggunakan Divide and Conquer: 150.0
 ```
+
+5.4.3. Pertanyaan
+1. Kenapa dibutuhkan variable mid pada method TotalDC()?
+    - variable mid dibutuhkan untuk membagi array menjadi dua bagian yang lebih kecil, sehingga memungkinkan untuk menerapkan pendekatan divide and conquer dengan memecah masalah menjadi sub masalah yang lebih kecil.
+2. Untuk apakah statement di bawah ini dilakukan dalam TotalDC()?
+    - statement di bawah ini dilakukan untuk menghitung nilai keuntungan dari setiap elemen array yang masing-masing ditambahkan ke nilai total.
+3. Kenapa diperlukan penjumlahan hasil lsum dan rsum seperti di bawah ini?
+    - penjumlahan hasil lsum dan rsum diperlukan untuk menghitung nilai keuntungan dari setiap elemen array yang masing-masing ditambahkan ke nilai total.
+4. Apakah base case dari totalDC()?
+    - base case dari totalDC() adalah ketika left lebih besar atau sama dengan right, yang berarti hanya ada satu elemen dalam array yang harus dijumlahkan, sehingga fungsi akan mengembalikan nilai keuntungan dari elemen tersebut.
+5. Tarik Kesimpulan tentang cara kerja totalDC()
+    - totalDC() menggunakan divide and conquer untuk menghitung nilai keuntungan dari setiap elemen array yang masing-masing ditambahkan ke nilai total.
+
+
+## 4.5 Latihan Praktikum
+```
+Nilai UTS Tertinggi: 92
+Nilai UTS Terendah: 76
+Rata-rata Nilai UAS: 85.375
+```
