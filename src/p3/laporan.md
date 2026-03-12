@@ -212,77 +212,76 @@ Pertanyaan
 2. Tambahkan method tambahData() pada class Matakuliah, kemudian gunakan method
 tersebut di class MatakuliahDemo untuk menambahkan data Matakuliah
     - ```
-    Masukkan jumlah matakuliah: 1
-Masukkan Data Matakuliah ke-1
-Kode       : 1
-Nama       : aaa
-SKS        : 2
-Jumlah Jam : 2
----------------------------------
-Data Matakuliah ke-1
-Kode       : 1
-Nama       : aaa
-SKS        : 2
-Jumlah Jam : 2
----------------------------------
-
+        Masukkan jumlah matakuliah: 1
+        Masukkan Data Matakuliah ke-1
+        Kode       : 1
+        Nama       : aaa
+        SKS        : 2
+        Jumlah Jam : 2
+        ---------------------------------
+        Data Matakuliah ke-1
+        Kode       : 1
+        Nama       : aaa
+        SKS        : 2
+        Jumlah Jam : 2
+        ---------------------------------
     ```
 3. Tambahkan method cetakInfo() pada class Matakuliah, kemudian gunakan method
 tersebut di class MatakuliahDemo untuk menampilkan data hasil inputan di layar
     - ```
-Masukkan Data Matakuliah ke-1
-Kode       : 1
-Nama       : ddddd
-SKS        : 2
-Jumlah Jam : 2
----------------------------------
-Masukkan Data Matakuliah ke-2
-Kode       : 2
-Nama       : bbbb
-SKS        : 3
-Jumlah Jam : 3
----------------------------------
-Masukkan Data Matakuliah ke-3
-Kode       : 3
-Nama       : aaa
-SKS        : 4
-Jumlah Jam : 4
----------------------------------
-Data Matakuliah ke-1
-Kode       : 1
-Nama       : ddddd
-SKS        : 2
-Jumlah Jam : 2
----------------------------------
-Data Matakuliah ke-2
-Kode       : 2
-Nama       : bbbb
-SKS        : 3
-Jumlah Jam : 3
----------------------------------
-Data Matakuliah ke-3
-Kode       : 3
-Nama       : aaa
-SKS        : 4
-Jumlah Jam : 4
----------------------------------
+        Masukkan Data Matakuliah ke-1
+        Kode       : 1
+        Nama       : ddddd
+        SKS        : 2
+        Jumlah Jam : 2
+        ---------------------------------
+        Masukkan Data Matakuliah ke-2
+        Kode       : 2
+        Nama       : bbbb
+        SKS        : 3
+        Jumlah Jam : 3
+        ---------------------------------
+        Masukkan Data Matakuliah ke-3
+        Kode       : 3
+        Nama       : aaa
+        SKS        : 4
+        Jumlah Jam : 4
+        ---------------------------------
+        Data Matakuliah ke-1
+        Kode       : 1
+        Nama       : ddddd
+        SKS        : 2
+        Jumlah Jam : 2
+        ---------------------------------
+        Data Matakuliah ke-2
+        Kode       : 2
+        Nama       : bbbb
+        SKS        : 3
+        Jumlah Jam : 3
+        ---------------------------------
+        Data Matakuliah ke-3
+        Kode       : 3
+        Nama       : aaa
+        SKS        : 4
+        Jumlah Jam : 4
+        ---------------------------------
     ```
 4. Modifikasi kode program pada class MatakuliahDemo agar panjang (jumlah elemen) dari
 array of object Matakuliah ditentukan oleh user melalui input dengan Scanner
-    - ```
-    Masukkan jumlah matakuliah: 1
-Masukkan Data Matakuliah ke-1
-Kode       : 1
-Nama       : ksjfhui
-SKS        : 3
-Jumlah Jam : 4
----------------------------------
-Data Matakuliah ke-1
-Kode       : 1
-Nama       : ksjfhui
-SKS        : 3
-Jumlah Jam : 4
----------------------------------
+-   ```
+        Masukkan jumlah matakuliah: 1
+        Masukkan Data Matakuliah ke-1
+        Kode       : 1
+        Nama       : ksjfhui
+        SKS        : 3
+        Jumlah Jam : 4
+        ---------------------------------
+        Data Matakuliah ke-1
+        Kode       : 1
+        Nama       : ksjfhui
+        SKS        : 3
+        Jumlah Jam : 4
+        ---------------------------------
     ```
 
 
@@ -330,260 +329,264 @@ Usia          : 40
 ```
 
 2. 
-a. ```
-Masukkan Data Dosen ke-1
-Kode          : 1
-Nama          : ds
-Jenis Kelamin (pria/wanita): wanita
-Usia          : 22
----------------------------------
-Masukkan Data Dosen ke-2
-Kode          : 2
-Nama          : r
-Jenis Kelamin (pria/wanita): pria
-Usia          : 43
----------------------------------
-Masukkan Data Dosen ke-3
-Kode          : 3
-Nama          : aaa
-Jenis Kelamin (pria/wanita): pria
-Usia          : 45
----------------------------------
-Data Dosen ke-1
-Kode          : 1
-Nama          : ds
-Jenis Kelamin : Wanita
-Usia          : 22
----------------------------------
-Data Dosen ke-2
-Kode          : 2
-Nama          : r
-Jenis Kelamin : Pria
-Usia          : 43
----------------------------------
-Data Dosen ke-3
-Kode          : 3
-Nama          : aaa
-Jenis Kelamin : Pria
-Usia          : 45
----------------------------------
+a.  
+```
+    Masukkan Data Dosen ke-1
+    Kode          : 1
+    Nama          : ds
+    Jenis Kelamin (pria/wanita): wanita
+    Usia          : 22
+    ---------------------------------
+    Masukkan Data Dosen ke-2
+    Kode          : 2
+    Nama          : r
+    Jenis Kelamin (pria/wanita): pria
+    Usia          : 43
+    ---------------------------------
+    Masukkan Data Dosen ke-3
+    Kode          : 3
+    Nama          : aaa
+    Jenis Kelamin (pria/wanita): pria
+    Usia          : 45
+    ---------------------------------
+    Data Dosen ke-1
+    Kode          : 1
+    Nama          : ds
+    Jenis Kelamin : Wanita
+    Usia          : 22
+    ---------------------------------
+    Data Dosen ke-2
+    Kode          : 2
+    Nama          : r
+    Jenis Kelamin : Pria
+    Usia          : 43
+    ---------------------------------
+    Data Dosen ke-3
+    Kode          : 3
+    Nama          : aaa
+    Jenis Kelamin : Pria
+    Usia          : 45
+    ---------------------------------
 
-=======DATA SEMUA DOSEN=======
-Kode          : 1
-Nama          : ds
-Jenis Kelamin : Wanita
-Usia          : 22
------------------------------------------------------
-Kode          : 2
-Nama          : r
-Jenis Kelamin : Pria
-Usia          : 43
------------------------------------------------------
-Kode          : 3
-Nama          : aaa
-Jenis Kelamin : Pria
-Usia          : 45
------------------------------------------------------
+    =======DATA SEMUA DOSEN=======
+    Kode          : 1
+    Nama          : ds
+    Jenis Kelamin : Wanita
+    Usia          : 22
+    -----------------------------------------------------
+    Kode          : 2
+    Nama          : r
+    Jenis Kelamin : Pria
+    Usia          : 43
+    -----------------------------------------------------
+    Kode          : 3
+    Nama          : aaa
+    Jenis Kelamin : Pria
+    Usia          : 45
+    -----------------------------------------------------
 ```
 
-b. ```
-Masukkan Data Dosen ke-1
-Kode          : 1
-Nama          : de
-Jenis Kelamin (pria/wanita): wanita
-Usia          : 32
----------------------------------
-Masukkan Data Dosen ke-2
-Kode          : 2
-Nama          : aaa
-Jenis Kelamin (pria/wanita): wanita
-Usia          : 21
----------------------------------
-Masukkan Data Dosen ke-3
-Kode          : 3
-Nama          : djfrjs
-Jenis Kelamin (pria/wanita): pria
-Usia          : 45
----------------------------------
-Data Dosen ke-1
-Kode          : 1
-Nama          : de
-Jenis Kelamin : Wanita
-Usia          : 32
----------------------------------
-Data Dosen ke-2
-Kode          : 2
-Nama          : aaa
-Jenis Kelamin : Wanita
-Usia          : 21
----------------------------------
-Data Dosen ke-3
-Kode          : 3
-Nama          : djfrjs
-Jenis Kelamin : Pria
-Usia          : 45
----------------------------------
+b.  
+```
+    Masukkan Data Dosen ke-1
+    Kode          : 1
+    Nama          : de
+    Jenis Kelamin (pria/wanita): wanita
+    Usia          : 32
+    ---------------------------------
+    Masukkan Data Dosen ke-2
+    Kode          : 2
+    Nama          : aaa
+    Jenis Kelamin (pria/wanita): wanita
+    Usia          : 21
+    ---------------------------------
+    Masukkan Data Dosen ke-3
+    Kode          : 3
+    Nama          : djfrjs
+    Jenis Kelamin (pria/wanita): pria
+    Usia          : 45
+    ---------------------------------
+    Data Dosen ke-1
+    Kode          : 1
+    Nama          : de
+    Jenis Kelamin : Wanita
+    Usia          : 32
+    ---------------------------------
+    Data Dosen ke-2
+    Kode          : 2
+    Nama          : aaa
+    Jenis Kelamin : Wanita
+    Usia          : 21
+    ---------------------------------
+    Data Dosen ke-3
+    Kode          : 3
+    Nama          : djfrjs
+    Jenis Kelamin : Pria
+    Usia          : 45
+    ---------------------------------
 
-=======DATA SEMUA DOSEN=======
-Kode          : 1
-Nama          : de
-Jenis Kelamin : Wanita
-Usia          : 32
------------------------------------------------------
-Kode          : 2
-Nama          : aaa
-Jenis Kelamin : Wanita
-Usia          : 21
------------------------------------------------------
-Kode          : 3
-Nama          : djfrjs
-Jenis Kelamin : Pria
-Usia          : 45
------------------------------------------------------
+    =======DATA SEMUA DOSEN=======
+    Kode          : 1
+    Nama          : de
+    Jenis Kelamin : Wanita
+    Usia          : 32
+    -----------------------------------------------------
+    Kode          : 2
+    Nama          : aaa
+    Jenis Kelamin : Wanita
+    Usia          : 21
+    -----------------------------------------------------
+    Kode          : 3
+    Nama          : djfrjs
+    Jenis Kelamin : Pria
+    Usia          : 45
+    -----------------------------------------------------
 
-=======JUMLAH DOSEN PER JENIS KELAMIN=======
-Pria : 1
-Wanita : 2
+    =======JUMLAH DOSEN PER JENIS KELAMIN=======
+    Pria : 1
+    Wanita : 2
 ```
 
-c. ```
-Masukkan Data Dosen ke-1
-Kode          : 1
-Nama          : sd
-Jenis Kelamin (pria/wanita): wanita
-Usia          : 30
----------------------------------
-Masukkan Data Dosen ke-2
-Kode          : 2
-Nama          : bvcfdg
-Jenis Kelamin (pria/wanita): wanita
-Usia          : 45
----------------------------------
-Masukkan Data Dosen ke-3
-Kode          : 3
-Nama          : addvn
-Jenis Kelamin (pria/wanita): pria
-Usia          : 50
----------------------------------
-Data Dosen ke-1
-Kode          : 1
-Nama          : sd
-Jenis Kelamin : Wanita
-Usia          : 30
----------------------------------
-Data Dosen ke-2
-Kode          : 2
-Nama          : bvcfdg
-Jenis Kelamin : Wanita
-Usia          : 45
----------------------------------
-Data Dosen ke-3
-Kode          : 3
-Nama          : addvn
-Jenis Kelamin : Pria
-Usia          : 50
----------------------------------
+c.  
+```
+    Masukkan Data Dosen ke-1
+    Kode          : 1
+    Nama          : sd
+    Jenis Kelamin (pria/wanita): wanita
+    Usia          : 30
+    ---------------------------------
+    Masukkan Data Dosen ke-2
+    Kode          : 2
+    Nama          : bvcfdg
+    Jenis Kelamin (pria/wanita): wanita
+    Usia          : 45
+    ---------------------------------
+    Masukkan Data Dosen ke-3
+    Kode          : 3
+    Nama          : addvn
+    Jenis Kelamin (pria/wanita): pria
+    Usia          : 50
+    ---------------------------------
+    Data Dosen ke-1
+    Kode          : 1
+    Nama          : sd
+    Jenis Kelamin : Wanita
+    Usia          : 30
+    ---------------------------------
+    Data Dosen ke-2
+    Kode          : 2
+    Nama          : bvcfdg
+    Jenis Kelamin : Wanita
+    Usia          : 45
+    ---------------------------------
+    Data Dosen ke-3
+    Kode          : 3
+    Nama          : addvn
+    Jenis Kelamin : Pria
+    Usia          : 50
+    ---------------------------------
 
-=======DATA SEMUA DOSEN=======
-Kode          : 1
-Nama          : sd
-Jenis Kelamin : Wanita
-Usia          : 30
------------------------------------------------------
-Kode          : 2
-Nama          : bvcfdg
-Jenis Kelamin : Wanita
-Usia          : 45
------------------------------------------------------
-Kode          : 3
-Nama          : addvn
-Jenis Kelamin : Pria
-Usia          : 50
------------------------------------------------------
+    =======DATA SEMUA DOSEN=======
+    Kode          : 1
+    Nama          : sd
+    Jenis Kelamin : Wanita
+    Usia          : 30
+    -----------------------------------------------------
+    Kode          : 2
+    Nama          : bvcfdg
+    Jenis Kelamin : Wanita
+    Usia          : 45
+    -----------------------------------------------------
+    Kode          : 3
+    Nama          : addvn
+    Jenis Kelamin : Pria
+    Usia          : 50
+    -----------------------------------------------------
 
-=======JUMLAH DOSEN PER JENIS KELAMIN=======
-Pria : 1
-Wanita : 2
-Rata-rata Usia Pria   : 50.0
-Rata-rata Usia Wanita : 37.5
-------------------------------------------------------
+    =======JUMLAH DOSEN PER JENIS KELAMIN=======
+    Pria : 1
+    Wanita : 2
+    Rata-rata Usia Pria   : 50.0
+    Rata-rata Usia Wanita : 37.5
+    ------------------------------------------------------
 ```
 
-d. ```
-Masukkan Data Dosen ke-1
-Kode          : 1
-Nama          : sd
-Jenis Kelamin (pria/wanita): wanita
-Usia          : 30
----------------------------------
-Masukkan Data Dosen ke-2
-Kode          : 2
-Nama          : bvcfdg
-Jenis Kelamin (pria/wanita): wanita
-Usia          : 45
----------------------------------
-Masukkan Data Dosen ke-3
-Kode          : 3
-Nama          : addvn
-Jenis Kelamin (pria/wanita): pria
-Usia          : 50
----------------------------------
-Data Dosen ke-1
-Kode          : 1
-Nama          : sd
-Jenis Kelamin : Wanita
-Usia          : 30
----------------------------------
-Data Dosen ke-2
-Kode          : 2
-Nama          : bvcfdg
-Jenis Kelamin : Wanita
-Usia          : 45
----------------------------------
-Data Dosen ke-3
-Kode          : 3
-Nama          : addvn
-Jenis Kelamin : Pria
-Usia          : 50
----------------------------------
-
-=======DATA SEMUA DOSEN=======
-Kode          : 1
-Nama          : sd
-Jenis Kelamin : Wanita
-Usia          : 30
------------------------------------------------------
-Kode          : 2
-Nama          : bvcfdg
-Jenis Kelamin : Wanita
-Usia          : 45
------------------------------------------------------
-Kode          : 3
-Nama          : addvn
-Jenis Kelamin : Pria
-Usia          : 50
------------------------------------------------------
-
-=======JUMLAH DOSEN PER JENIS KELAMIN=======
-Pria : 1
-Wanita : 2
-Rata-rata Usia Pria   : 50.0
-Rata-rata Usia Wanita : 37.5
-------------------------------------------------------
-
-======= DOSEN PALING TUA =======
-Kode          : 3
-Nama          : addvn
-Jenis Kelamin : Pria
-Usia          : 50
---------------------------------
+d. 
 ```
+    Masukkan Data Dosen ke-1
+    Kode          : 1
+    Nama          : sd
+    Jenis Kelamin (pria/wanita): wanita
+    Usia          : 30
+    ---------------------------------
+    Masukkan Data Dosen ke-2
+    Kode          : 2
+    Nama          : bvcfdg
+    Jenis Kelamin (pria/wanita): wanita
+    Usia          : 45
+    ---------------------------------
+    Masukkan Data Dosen ke-3
+    Kode          : 3
+    Nama          : addvn
+    Jenis Kelamin (pria/wanita): pria
+    Usia          : 50
+    ---------------------------------
+    Data Dosen ke-1
+    Kode          : 1
+    Nama          : sd
+    Jenis Kelamin : Wanita
+    Usia          : 30
+    ---------------------------------
+    Data Dosen ke-2
+    Kode          : 2
+    Nama          : bvcfdg
+    Jenis Kelamin : Wanita
+    Usia          : 45
+    ---------------------------------
+    Data Dosen ke-3
+    Kode          : 3
+    Nama          : addvn
+    Jenis Kelamin : Pria
+    Usia          : 50
+    ---------------------------------
 
-e. ```
-======= DOSEN PALING MUDA =======
-Kode          : 1
-Nama          : sd
-Jenis Kelamin : Wanita
-Usia          : 30
----------------------------------
+    =======DATA SEMUA DOSEN=======
+    Kode          : 1
+    Nama          : sd
+    Jenis Kelamin : Wanita
+    Usia          : 30
+    -----------------------------------------------------
+    Kode          : 2
+    Nama          : bvcfdg
+    Jenis Kelamin : Wanita
+    Usia          : 45
+    -----------------------------------------------------
+    Kode          : 3
+    Nama          : addvn
+    Jenis Kelamin : Pria
+    Usia          : 50
+    -----------------------------------------------------
+
+    =======JUMLAH DOSEN PER JENIS KELAMIN=======
+    Pria : 1
+    Wanita : 2
+    Rata-rata Usia Pria   : 50.0
+    Rata-rata Usia Wanita : 37.5
+    ------------------------------------------------------
+
+    ======= DOSEN PALING TUA =======
+    Kode          : 3
+    Nama          : addvn
+    Jenis Kelamin : Pria
+    Usia          : 50
+    --------------------------------
+    ```
+
+    e. ```
+    ======= DOSEN PALING MUDA =======
+    Kode          : 1
+    Nama          : sd
+    Jenis Kelamin : Wanita
+    Usia          : 30
+    ---------------------------------
 ```
