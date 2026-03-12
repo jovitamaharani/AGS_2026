@@ -84,80 +84,80 @@ IPK    : 3.9
 Pertanyaan
 1. Tambahkan method cetakInfo() pada class Mahasiswa kemudian modifikasi kode program pada langkah no 3.
     - ```
-         Masukan data mahasiswa ke-1
-NIM    : 355 
-Nama   : fh
-Kelas  : 5
-IPK    : 4 
----------------------------------
-Masukan data mahasiswa ke-2
-NIM    : 5777776
-Nama   : fytf
-Kelas  : 6
-IPK    : 3
----------------------------------
-Masukan data mahasiswa ke-3
-NIM    : drgfgt
-Nama   : yhr
-Kelas  : 2
-IPK    : 4
----------------------------------
-Data mahasiswa ke-1
-Cetak info mahasiswa
-Data mahasiswa ke-1
-NIM    : 355
-Nama   : fh
-Kelas  : 5
-IPK    : 4.0
-Data mahasiswa ke-2
-NIM    : 355
-Nama   : fh
-Kelas  : 5
-IPK    : 4.0
-Data mahasiswa ke-3
-NIM    : 355
-Nama   : fh
-Kelas  : 5
-IPK    : 4.0
----------------------------------
-Data mahasiswa ke-2
-Cetak info mahasiswa
-Data mahasiswa ke-1
-NIM    : 5777776
-Nama   : fytf
-Kelas  : 6
-IPK    : 3.0
-Data mahasiswa ke-2
-NIM    : 5777776
-Nama   : fytf
-Kelas  : 6
-IPK    : 3.0
-Data mahasiswa ke-3
-NIM    : 5777776
-Nama   : fytf
-Kelas  : 6
-IPK    : 3.0
----------------------------------
-Data mahasiswa ke-3
-Cetak info mahasiswa
-Data mahasiswa ke-1
-NIM    : drgfgt
-Nama   : yhr
-Kelas  : 2
-IPK    : 4.0
-Data mahasiswa ke-2
-NIM    : drgfgt
-Nama   : yhr
-Kelas  : 2
-IPK    : 4.0
-Data mahasiswa ke-3
-NIM    : drgfgt
-Nama   : yhr
-Kelas  : 2
-IPK    : 4.0
----------------------------------
+        Masukan data mahasiswa ke-1
+        NIM    : 355 
+        Nama   : fh
+        Kelas  : 5
+        IPK    : 4 
+        ---------------------------------
+        Masukan data mahasiswa ke-2
+        NIM    : 5777776
+        Nama   : fytf
+        Kelas  : 6
+        IPK    : 3
+        ---------------------------------
+        Masukan data mahasiswa ke-3
+        NIM    : drgfgt
+        Nama   : yhr
+        Kelas  : 2
+        IPK    : 4
+        ---------------------------------
+        Data mahasiswa ke-1
+        Cetak info mahasiswa
+        Data mahasiswa ke-1
+        NIM    : 355
+        Nama   : fh
+        Kelas  : 5
+        IPK    : 4.0
+        Data mahasiswa ke-2
+        NIM    : 355
+        Nama   : fh
+        Kelas  : 5
+        IPK    : 4.0
+        Data mahasiswa ke-3
+        NIM    : 355
+        Nama   : fh
+        Kelas  : 5
+        IPK    : 4.0
+        ---------------------------------
+        Data mahasiswa ke-2
+        Cetak info mahasiswa
+        Data mahasiswa ke-1
+        NIM    : 5777776
+        Nama   : fytf
+        Kelas  : 6
+        IPK    : 3.0
+        Data mahasiswa ke-2
+        NIM    : 5777776
+        Nama   : fytf
+        Kelas  : 6
+        IPK    : 3.0
+        Data mahasiswa ke-3
+        NIM    : 5777776
+        Nama   : fytf
+        Kelas  : 6
+        IPK    : 3.0
+        ---------------------------------
+        Data mahasiswa ke-3
+        Cetak info mahasiswa
+        Data mahasiswa ke-1
+        NIM    : drgfgt
+        Nama   : yhr
+        Kelas  : 2
+        IPK    : 4.0
+        Data mahasiswa ke-2
+        NIM    : drgfgt
+        Nama   : yhr
+        Kelas  : 2
+        IPK    : 4.0
+        Data mahasiswa ke-3
+        NIM    : drgfgt
+        Nama   : yhr
+        Kelas  : 2
+        IPK    : 4.0
+        ---------------------------------
 
-E:\Java\AGS_2026>
+        E:\Java\AGS_2026>
       ```
 2. Misalkan Anda punya array baru bertipe array of Mahasiswa dengan nama myArrayOfMahasiswa. Mengapa kode berikut menyebabkan error?
     - karena kode tersebut mencoba mengakses indeks ke-0 dari array myArrayOfMahasiswa yang belum diinisialisasi, sehingga menyebabkan NullPointerException.
