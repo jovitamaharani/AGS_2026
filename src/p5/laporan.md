@@ -73,3 +73,17 @@ HASIL PANGKAT DIVIDE AND CONQUER:
     - tetap relevan agar method lebih fleksibel, jika tanpa parameter, method hanya bisa mengakses atribut nilaai dan pangkat yang ada di class Pangkat.
 4. Tarik tentang cara kerja method pangkatBF() dan pangkatDC()!
     - pangkatBF bekerja dengan melakukan perkalian basis secara berulang sebanyak nilai pangkat, sedangkan pangkatDC bekerja dengan prinsip divide (membagi masalah menjadi sub masalah yang lebih kecil, membagi pangkat menjadi dua) dan conquer (menyelesaikan sub masalah secara rekursif) untuk menghitung hasil pangkat.
+
+
+## 5.4 Menghitung Sum Array dengan Algoritma Brute Force dan Divide and Conquer
+
+```
+Masukan jumlah elemen: 5
+Masukan keuntungan ke-1: 10
+Masukan keuntungan ke-2: 20
+Masukan keuntungan ke-3: 30
+Masukan keuntungan ke-4: 40
+Masukan keuntungan ke-5: 50
+Total keuntungan menggunakan Bruteforce: 150.0
+Total keuntungan menggunakan Divide and Conquer: 150.0
+```
