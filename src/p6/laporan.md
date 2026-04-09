@@ -374,3 +374,75 @@ Kelas: 3
 IPK: 3.4
 -----------------------
 ```
+
+## 5.5 Latihan Praktikum
+```
+=== MENU DATA DOSEN ===
+1. Tambah Data
+2. Tampil Data
+3. Sorting ASC (Bubble Sort - Usia)
+4. Sorting DSC (Selection Sort - Usia)
+5. Keluar
+Pilih menu: 1
+Kode Dosen: 31
+Nama Dosen: budi
+Laki-laki (true/false): true
+Usia: 40
+
+=== MENU DATA DOSEN ===
+1. Tambah Data
+2. Tampil Data
+3. Sorting ASC (Bubble Sort - Usia)
+4. Sorting DSC (Selection Sort - Usia)
+5. Keluar
+Pilih menu: 2
+
+--- Daftar Dosen ---
+Kode: 31 | Nama: budi | Gender: Laki-laki | Usia: 40
+
+=== MENU DATA DOSEN ===
+1. Tambah Data
+2. Tampil Data
+3. Sorting ASC (Bubble Sort - Usia)
+4. Sorting DSC (Selection Sort - Usia)
+5. Keluar
+Pilih menu: 1
+Kode Dosen: 2183
+Nama Dosen: bunga
+Laki-laki (true/false): false
+Usia: 35
+
+=== MENU DATA DOSEN ===
+1. Tambah Data
+2. Tampil Data
+3. Sorting ASC (Bubble Sort - Usia)
+4. Sorting DSC (Selection Sort - Usia)
+5. Keluar
+Pilih menu: 3
+
+Data berhasil diurutkan ASC (Termuda ke Tertua).
+Kode: 2183 | Nama: bunga | Gender: Perempuan | Usia: 35
+Kode: 31 | Nama: budi | Gender: Laki-laki | Usia: 40
+
+=== MENU DATA DOSEN ===
+1. Tambah Data
+2. Tampil Data
+3. Sorting ASC (Bubble Sort - Usia)
+4. Sorting DSC (Selection Sort - Usia)
+5. Keluar
+Pilih menu: 4
+
+Data berhasil diurutkan DSC (Tertua ke Termuda).
+Kode: 31 | Nama: budi | Gender: Laki-laki | Usia: 40
+Kode: 2183 | Nama: bunga | Gender: Perempuan | Usia: 35
+
+=== MENU DATA DOSEN ===
+1. Tambah Data
+2. Tampil Data
+3. Sorting ASC (Bubble Sort - Usia)
+4. Sorting DSC (Selection Sort - Usia)
+5. Keluar
+Pilih menu: 5
+Program selesai.
+
+```
