@@ -316,5 +316,30 @@ Untuk apakah proses tersebut, jelaskan!
 
 ## 5.4 Mengurutkan Data Mahasiswa Berdasarkan IPK Menggunakan Insertion Sort
 ```
-
+Data yang sudah terurut menggunakan INSERTION SORT (ASC)
+Nama: dfg
+NIM: 435
+Kelas: 3
+IPK: 3.4
+-----------------------
+Nama: bbbbb
+NIM: 4325
+Kelas: 2
+IPK: 3.6
+-----------------------
+Nama: hgfgd
+NIM: 53456
+Kelas: 1
+IPK: 3.9
+-----------------------
+Nama: hgf
+NIM: 234
+Kelas: 3
+IPK: 4.0
+-----------------------
+Nama: aaa
+NIM: 324
+Kelas: 1
+IPK: 4.0
+-----------------------
 ```
