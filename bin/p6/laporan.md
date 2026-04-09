@@ -21,5 +21,12 @@ Data awal 2
 30 20 2 8 14
 Data sudah diurutkan dengan SELECTION SORT (ASC)
 2 8 14 20 30
+```
 
+c. SORTING – INSERTION SORT
+```
+Data awal 3
+40 10 4 9 3
+Data sudah diurutkan dengan INSERTION SORT (ASC)
+3 4 9 10 40
 ```
