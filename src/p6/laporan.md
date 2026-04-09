@@ -196,3 +196,125 @@ Kelas: 3a
 IPK: 3.0
 -----------------------
 ```
+
+## 5.3.5 Mengurutkan Data Mahasiswa Berdasarkan IPK (Selection Sort)
+```
+Masukkan Data Mahasiswa ke-1
+NIM   : 32
+Nama  : df
+Kelas : 2
+IPK   : 3,8
+---------------------------
+Masukkan Data Mahasiswa ke-2
+NIM   : 234
+Nama  : df
+Kelas : 3
+IPK   : 3,5
+---------------------------
+Masukkan Data Mahasiswa ke-3
+NIM   : 34
+Nama  : ef
+Kelas : 4
+IPK   : 4
+---------------------------
+Masukkan Data Mahasiswa ke-4
+NIM   : 43
+Nama  : fg
+Kelas : 3
+IPK   : 3,7
+---------------------------
+Masukkan Data Mahasiswa ke-5
+NIM   : 324
+Nama  : fs
+Kelas : 3
+IPK   : 3,7
+---------------------------
+Data mahasiswa sebelum sorting:
+Nama: df
+NIM: 32
+Kelas: 2
+IPK: 3.8
+-----------------------
+Nama: df
+NIM: 234
+Kelas: 3
+IPK: 3.5
+-----------------------
+Nama: ef
+NIM: 34
+Kelas: 4
+IPK: 4.0
+-----------------------
+Nama: fg
+NIM: 43
+Kelas: 3
+IPK: 3.7
+-----------------------
+Nama: fs
+NIM: 324
+Kelas: 3
+IPK: 3.7
+-----------------------
+Data Mahasiswa setelah sorting berdasarkan IPK (DESC):
+Nama: ef
+NIM: 34
+Kelas: 4
+IPK: 4.0
+-----------------------
+Nama: df
+NIM: 32
+Kelas: 2
+IPK: 3.8
+-----------------------
+Nama: fg
+NIM: 43
+Kelas: 3
+IPK: 3.7
+-----------------------
+Nama: fs
+NIM: 324
+Kelas: 3
+IPK: 3.7
+-----------------------
+Nama: df
+NIM: 234
+Kelas: 3
+IPK: 3.5
+-----------------------
+Data yang sudah terurut menggunakan SELECTION SORT (ASC)
+Nama: df
+NIM: 234
+Kelas: 3
+IPK: 3.5
+-----------------------
+Nama: fg
+NIM: 43
+Kelas: 3
+IPK: 3.7
+-----------------------
+Nama: fs
+NIM: 324
+Kelas: 3
+IPK: 3.7
+-----------------------
+Nama: df
+NIM: 32
+Kelas: 2
+IPK: 3.8
+-----------------------
+Nama: ef
+NIM: 34
+Kelas: 4
+IPK: 4.0
+-----------------------
+```
+
+Pertanyaan
+Di dalam method selection sort, terdapat baris program seperti di bawah ini:
+Untuk apakah proses tersebut, jelaskan!
+- untuk mengeksekusi penukaran posisi. Setelah sistem menemukan elemen dengan nilai terkecil (pada idxMin) dalam satu putaran, elemen tersebut ditukar dengan elemen pada posisi i (posisi target urutan saat itu).
+
+## 5.4 Mengurutkan Data Mahasiswa Berdasarkan IPK Menggunakan Insertion Sort
+```
+
+```
