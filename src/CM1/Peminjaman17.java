@@ -28,22 +28,4 @@ public class Peminjaman17 {
                 + " | Denda: " + denda);
     }
 
-    int findBinarySearch(Peminjaman17[] listPem, String cariNIM, int left, int right) {
-    int mid;
-    if (right >= left) {
-        mid = (left + right) / 2;
-
-        int nimTengah = Integer.parseInt(listPem[mid].mhs.nim);
-        int nimDicari = Integer.parseInt(cariNIM);
-
-        if (nimDicari == nimTengah) {
-            return mid;
-        } else if (nimTengah > nimDicari) {
-            return findBinarySearch(listPem, cariNIM, left, mid - 1);
-        } else {
-            return findBinarySearch(listPem, cariNIM, mid + 1, right);
-        }
-    }
-    return -1;
-}
 }

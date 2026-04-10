@@ -77,32 +77,48 @@ public class PeminjamanDemo17 {
                 case 5:
                     System.out.print("Masukkan NIM yang dicari: ");
                     String cariNIM = jovita.nextLine();
-                    int hasilPosisi = findBinarySearch(mahasiswa, cariNIM, 0, mahasiswa.length - 1);
-                    
-                    if (hasilPosisi != -1) {
-                        System.out.println("Data ditemukan pada indeks ke-" + hasilPosisi);
-                        mahasiswa[hasilPosisi].tampilMahasiswa();
+                    for (int i = 1; i < peminjaman.length; i++) {
+                        Peminjaman17 key = peminjaman[i];
+                        int j = i - 1;
+                        while (j >= 0 && peminjaman[j].mhs.nim.compareTo(key.mhs.nim) > 0) {
+                            peminjaman[j + 1] = peminjaman[j];
+                            j--;
+                        }
+                        peminjaman[j + 1] = key;
+                    }
+
+                    int posisi = findBinarySearch(peminjaman, cariNIM, 0, peminjaman.length - 1);
+
+                    if (posisi != -1) {
+                        System.out.println("\nData Peminjaman Ditemukan:");
+                        
+                        int temp = posisi;
+                        while (temp > 0 && peminjaman[temp - 1].mhs.nim.equals(cariNIM)) {
+                            temp--;
+                        }
+
+                        for (int i = temp; i < peminjaman.length && peminjaman[i].mhs.nim.equals(cariNIM); i++) {
+                            peminjaman[i].tampilPeminjaman();
+                        }
                     } else {
-                        System.out.println("Data dengan NIM " + cariNIM + " tidak ditemukan.");
+                        System.out.println("Data peminjaman dengan NIM " + cariNIM + " tidak ditemukan.");
                     }
                     break;
             }
         } while (menu != 0);
     }
 
-    public static int findBinarySearch(Mahasiswa17[] listMhs, String cari, int left, int right) {
-        int mid;
+    public static int findBinarySearch(Peminjaman17[] listPem, String cariNIM, int left, int right) {
         if (right >= left) {
-            mid = (left + right) / 2;
-            
-            int hasilCek = cari.compareTo(listMhs[mid].nim);
-            
+            int mid = left + (right - left) / 2;
+            int hasilCek = cariNIM.compareTo(listPem[mid].mhs.nim);
+
             if (hasilCek == 0) {
                 return mid;
             } else if (hasilCek < 0) {
-                return findBinarySearch(listMhs, cari, left, mid - 1);
+                return findBinarySearch(listPem, cariNIM, left, mid - 1);
             } else {
-                return findBinarySearch(listMhs, cari, mid + 1, right);
+                return findBinarySearch(listPem, cariNIM, mid + 1, right);
             }
         }
         return -1;
