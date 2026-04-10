@@ -152,3 +152,20 @@ menggunakan sequential searching
 data3.4tidak ditemukan
 Data mahasiswa dengan IPK 3.4 tidak ditemukan
 ```
+
+Pertanyaan
+1. Jelaskan perbedaan metod tampilDataSearch dan tampilPosisi pada class MahasiswaBerprestasi!
+- tampilPosisi: Berfungsi untuk menginformasikan apakah data ditemukan atau tidak. Jika ditemukan, metode ini hanya menampilkan indeks (posisi) data tersebut dalam array.
+- tampilDataSearch: Berfungsi untuk menampilkan detail atribut dari objek yang dicari (seperti NIM, Nama, dan Kelas) berdasarkan indeks yang ditemukan.
+2. Jelaskan fungsi break pada kode program di bawah ini!
+- untuk menghentikan perulangan for setelah data ditemukan
+3. Apa fungsi variabel pos atau indeks hasil pencarian dalam program sequential search?
+- sebagai penanda hasil pencarian. Jika bernilai -1, artinya data tidak ditemukan. Jika bernilai selain -1, nilai tersebut menyimpan lokasi indeks data di dalam array yang akan digunakan oleh metode lain untuk menampilkan informasi lengkap
+4. Jika terdapat lebih dari satu data dengan nilai yang sama, hasil pencarian sequential search yang dibuat di atas akan menampilkan data ke berapa? Jelaskan.
+- maka program akan menampilkan data yang ditemukan pertama kali (indeks terkecil), karena ada perintah break yang langsung menghentikan pencarian ketika hasil pencarian pertama kali ditemukan
+5. Berkaitan dengan pertanyaan nomor 2 di atas, apa yang terjadi jika perintah break dihapus dari kode di atas?
+- maka program akan terus memproses seluruh elemen array hingga selesai. Jika ada data ganda, variabel posisi akan terus diperbarui, jadi hasil yang muncul adalah data indeks dari data terakhir
+
+
+
+
