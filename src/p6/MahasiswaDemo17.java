@@ -51,5 +51,20 @@ public class MahasiswaDemo17 {
         int pss = (int)posisi;
         list.tampilPosisi (cari, pss);
         list.tampilDataSearch(cari, pss);
+
+        //melakukan pencarian data Binary
+        System.out.println("---------------------");
+        System.out.println("Pencarian data");
+        System.out.println("---------------------");
+        System.out.println("masukkan ipk mahasiswa yang dicari: ");
+        System.out.print("IPK: ");
+        double cariBinary = jovita.nextDouble();
+        System.out.println("---------------------");
+        System.out.println("menggunakan binary search");
+        System.out.println("---------------------");
+        double posisi2 = list.findBinarySearch(cariBinary, 0, jmlMhs-1);
+        int pss2= (int)posisi2;
+        list.tampilPosisi (cariBinary, pss2);
+        list.tampilDataSearch(cariBinary, pss2);
     }
 }

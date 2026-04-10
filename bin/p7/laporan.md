@@ -166,6 +166,20 @@ Pertanyaan
 5. Berkaitan dengan pertanyaan nomor 2 di atas, apa yang terjadi jika perintah break dihapus dari kode di atas?
 - maka program akan terus memproses seluruh elemen array hingga selesai. Jika ada data ganda, variabel posisi akan terus diperbarui, jadi hasil yang muncul adalah data indeks dari data terakhir
 
+## 6.3. Searching/ Pencarian Menggunakan Algoritma Binary Search
 
-
-
+Pertanyaan
+1. Tunjukkan pada kode program yang mana proses divide dijalankan!
+- 
+2. Tunjukkan pada kode program yang mana proses conquer dijalankan!
+- 
+3. Apa fungsi left, right, dan mid?
+- 
+4. Jika data IPK yang dimasukkan tidak urut. Apakah program masih dapat berjalan? Mengapa demikian?
+- 
+5. Jika IPK yang dimasukkan dari IPK terbesar ke terkecil (misal: 3.8, 3.7, 3.5, 3.4, 3.2) dan elemen yang dicari adalah 3.2. Bagaimana hasil dari binary search? Apakah sesuai? Jika tidak sesuai maka ubahlah kode program binary seach agar hasilnya sesuai
+- 
+6. Jelaskan bagaimana binary search menentukan bahwa data yang dicari tidak ditemukan di dalam array.
+- 
+7. Modifikasi program di atas yang mana jumlah mahasiswa yang diinputkan sesuai dengan masukan dari keyboard.
+- 
