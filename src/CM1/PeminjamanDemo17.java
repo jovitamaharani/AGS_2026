@@ -23,11 +23,11 @@ public class PeminjamanDemo17 {
 
         // membuat array of object peminjaman
         Peminjaman17[] peminjaman = {
-                new Peminjaman17(mahasiswa[0], buku[0], 7),
-                new Peminjaman17(mahasiswa[1], buku[1], 3),
-                new Peminjaman17(mahasiswa[2], buku[2], 10),
-                new Peminjaman17(mahasiswa[2], buku[3], 6),
-                new Peminjaman17(mahasiswa[0], buku[1], 4)
+                new Peminjaman17(mahasiswa[0], buku[0], 30, false),
+                new Peminjaman17(mahasiswa[1], buku[1], 3, false),
+                new Peminjaman17(mahasiswa[2], buku[2], 10, false),
+                new Peminjaman17(mahasiswa[2], buku[3], 6, false),
+                new Peminjaman17(mahasiswa[0], buku[1], 4, false)
         };
 
         // perulangan menu
@@ -75,7 +75,7 @@ public class PeminjamanDemo17 {
                     }
                     break;
                 case 5:
-                    System.out.print("Masukkan NIM yang dicari: ");
+                    System.out.print("Masukkan NIM untuk cancel: ");
                     String cariNIM = jovita.nextLine();
                     for (int i = 1; i < peminjaman.length; i++) {
                         Peminjaman17 key = peminjaman[i];
@@ -89,16 +89,28 @@ public class PeminjamanDemo17 {
 
                     int posisi = findBinarySearch(peminjaman, cariNIM, 0, peminjaman.length - 1);
 
-                    if (posisi != -1) {
+                    if (posisi != -1) { // untuk memastikan data ditemukan sebelum menampilkan, karena data tidak mungkin negatif, yang mungkin 0/lebih besar
                         System.out.println("\nData Peminjaman Ditemukan:");
-                        
+
                         int temp = posisi;
                         while (temp > 0 && peminjaman[temp - 1].mhs.nim.equals(cariNIM)) {
                             temp--;
                         }
 
                         for (int i = temp; i < peminjaman.length && peminjaman[i].mhs.nim.equals(cariNIM); i++) {
-                            peminjaman[i].tampilPeminjaman();
+                            // jawaban uts sesi 4 (B)
+                            // untuk merubah status
+                            if (peminjaman[i].isCanceled == false) {
+                                peminjaman[i].isCanceled = true;
+                                System.out.println("Peminjaman dengan NIM " + cariNIM + " telah dibatalkan.");
+                            }
+                        }
+                        // jawaban uts sesi 4 (B)
+                        // menampilkan data yang belum di cancel
+                        for (int i = 0; i < peminjaman.length; i++) {
+                            if (peminjaman[i].isCanceled == false) {
+                                peminjaman[i].tampilPeminjaman();
+                            }
                         }
                     } else {
                         System.out.println("Data peminjaman dengan NIM " + cariNIM + " tidak ditemukan.");
