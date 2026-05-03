@@ -9,7 +9,6 @@
 
 ## 2.1 Percobaan 1: Mahasiswa Mengumpulkan Tugas
 ```
-
 Menu:
 1. Mengumpulkan Tugas
 2. Menilai Tugas
@@ -155,4 +154,104 @@ public String konversiDesimalKeBiner(int nilai) {
     }
     return biner;
 }
+```
+
+## 2.4 Latihan Praktikum
+```
+Masukkan kapasitas tumpukan surat: 3
+
+Menu Layanan Surat Izin:
+1. Terima Surat Izin
+2. Proses Surat Izin
+3. Lihat Surat Izin Terakhir
+4. Cari Surat (Nama)
+5. Keluar
+Pilih (1-5): 1
+ID Surat: 1
+Nama Mahasiswa: aa
+Kelas: 1a
+Jenis Izin (S/I): s
+Durasi (hari): 1
+
+Menu Layanan Surat Izin:
+1. Terima Surat Izin
+2. Proses Surat Izin
+3. Lihat Surat Izin Terakhir
+4. Cari Surat (Nama)
+5. Keluar
+Pilih (1-5): 1
+ID Surat: 2
+Nama Mahasiswa: bb
+Kelas: 1b
+Jenis Izin (S/I): i
+Durasi (hari): 3
+
+Menu Layanan Surat Izin:
+1. Terima Surat Izin
+2. Proses Surat Izin
+3. Lihat Surat Izin Terakhir
+4. Cari Surat (Nama)
+5. Keluar
+Pilih (1-5): 2
+Surat milik bb telah divalidasi.
+
+Menu Layanan Surat Izin:
+1. Terima Surat Izin
+2. Proses Surat Izin
+3. Lihat Surat Izin Terakhir
+4. Cari Surat (Nama)
+5. Keluar
+Pilih (1-5): 3
+Surat teratas: aa (1)
+
+Menu Layanan Surat Izin:
+1. Terima Surat Izin
+2. Proses Surat Izin
+3. Lihat Surat Izin Terakhir
+4. Cari Surat (Nama)
+5. Keluar
+Pilih (1-5): 4
+Masukkan nama mahasiswa yang dicari: aa
+Surat ditemukan pada posisi indeks ke-0
+ID: 1 | Jenis: s
+
+Menu Layanan Surat Izin:
+1. Terima Surat Izin
+2. Proses Surat Izin
+3. Lihat Surat Izin Terakhir
+4. Cari Surat (Nama)
+5. Keluar
+Pilih (1-5): 4
+Masukkan nama mahasiswa yang dicari: bb
+Surat atas nama bb tidak ditemukan.
+
+Menu Layanan Surat Izin:
+1. Terima Surat Izin
+2. Proses Surat Izin
+3. Lihat Surat Izin Terakhir
+4. Cari Surat (Nama)
+5. Keluar
+Pilih (1-5): 2
+Surat milik aa telah divalidasi.
+
+Menu Layanan Surat Izin:
+1. Terima Surat Izin
+2. Proses Surat Izin
+3. Lihat Surat Izin Terakhir
+4. Cari Surat (Nama)
+5. Keluar
+Pilih (1-5): 4
+Masukkan nama mahasiswa yang dicari: aa
+Surat atas nama aa tidak ditemukan.
+
+Menu Layanan Surat Izin:
+1. Terima Surat Izin
+2. Proses Surat Izin
+3. Lihat Surat Izin Terakhir
+4. Cari Surat (Nama)
+5. Keluar
+Pilih (1-5): 5
+Program selesai.
+
+E:\Java\AGS_2026>
 ```
