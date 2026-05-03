@@ -141,3 +141,18 @@ Pertanyaan
     - Method konversiDesimalKeBiner menerima sebuah nilai desimal (nilai tugas) sebagai parameter. Di dalam method, dilakukan perulangan while yang terus berjalan selama nilai desimal tidak sama dengan 0. Pada setiap iterasi, sisa pembagian nilai desimal dengan 2 (nilai % 2) disimpan dalam variabel biner, dan nilai desimal dibagi dengan 2 (nilai /= 2). Nilai biner yang diperoleh dari setiap iterasi ditambahkan ke string hasil dengan urutan terbalik (biner + hasil). Setelah perulangan selesai, method mengembalikan string hasil yang berisi representasi biner dari nilai desimal yang diberikan.
 2. Pada method konversiDesimalKeBiner, ubah kondisi perulangan menjadi while (kode != 0), bagaimana hasilnya? Jelaskan alasannya
     - maka akan mengalami error karena variabel kode tidak dideklarasikan di dalam method tersebut. Variabel yang digunakan untuk menyimpan nilai desimal adalah nilai, sehingga kondisi perulangan harus tetap menggunakan nilai untuk memastikan bahwa proses konversi berjalan dengan benar.
+```
+public String konversiDesimalKeBiner(int nilai) {
+    StackKonversi17 stack = new StackKonversi17();
+    while (kode != 0) {
+        int sisa = nilai % 2;
+        stack.push(sisa);
+        nilai = nilai / 2;
+    }
+    String biner = new String();
+    while (!stack.isEmpty()) {
+        biner += stack.pop();
+    }
+    return biner;
+}
+```
