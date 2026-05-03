@@ -5,10 +5,9 @@ import java.util.Scanner;
 public class MahasiswaDemo17 {
     public static void main(String[] args) {
         Scanner jovita = new Scanner(System.in);
-        StackTugasMahasiswa17 stack = new StackTugasMahasiswa17 (5);
+        StackTugasMahasiswa17 stack = new StackTugasMahasiswa17(5);
         int pilih;
-        do
-        {
+        do {
             System.out.println("\nMenu:");
             System.out.println("1. Mengumpulkan Tugas");
             System.out.println("2. Menilai Tugas");
@@ -37,6 +36,8 @@ public class MahasiswaDemo17 {
                         int nilai = jovita.nextInt();
                         dinilai.tugasDinilai(nilai);
                         System.out.printf("Nilai Tugas %s adalah %d\n", dinilai.nama, nilai);
+                        String biner = stack.konversiDesimalKeBiner(nilai);
+                        System.out.println("Nilai Biner Tugas: " + biner);
                     }
                     break;
                 case 3:
@@ -53,7 +54,6 @@ public class MahasiswaDemo17 {
                 default:
                     System.out.println("Pilihan tidak valid.");
             }
-        }while(pilih>=1&&pilih<=4);
+        } while (pilih >= 1 && pilih <= 4);
     }
 }
-
