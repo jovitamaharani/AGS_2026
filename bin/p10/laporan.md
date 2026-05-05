@@ -186,3 +186,166 @@ E:\Java\AGS_2026>
 ```
 
 Pertanyaan
+```
+public void LihatAkhir() {
+    if (isEmpty()) {
+        System.out.println("Antrian kosong.");
+    } else {
+        System.out.print("Mahasiswa paling belakang: ");
+        System.out.println("NIM NAMA PRODI KELAS");
+        data[rear].tampilkanData();
+    }
+}
+```
+
+```
+System.out.println("6. Cek Antrian paling belakang");
+case 6:
+    antrian.LihatAkhir();
+    break;
+
+```
+
+```
+=== Menu Antrian Layanan Akademik ===
+1. Tambah Mahasiswa ke Antrian
+2. Layani Mahasiswa
+3. Lihat Mahasiswa Terdepan
+4. Lihat Semua Antrian
+5. Jumlah Mahasiswa dalam Antrian
+0. Keluar
+Pilih menu: 1
+NIM : 213
+Nama: a
+Prodi: e
+Kelas: 2
+a berhasil masuk ke antrian.
+
+=== Menu Antrian Layanan Akademik ===
+1. Tambah Mahasiswa ke Antrian
+2. Layani Mahasiswa
+3. Lihat Mahasiswa Terdepan
+4. Lihat Semua Antrian
+5. Jumlah Mahasiswa dalam Antrian
+0. Keluar
+Pilih menu: 1
+NIM : b
+Nama: d
+Prodi: d
+Kelas: 3
+d berhasil masuk ke antrian.
+
+=== Menu Antrian Layanan Akademik ===
+1. Tambah Mahasiswa ke Antrian
+2. Layani Mahasiswa
+3. Lihat Mahasiswa Terdepan
+4. Lihat Semua Antrian
+5. Jumlah Mahasiswa dalam Antrian
+0. Keluar
+Pilih menu: 4
+Daftar Mahasiswa dalam Antrian:
+NIM - NAMAjj - PRODI - KELAS
+1. 213 - a - e - 2
+2. b - d - d - 3
+
+=== Menu Antrian Layanan Akademik ===
+1. Tambah Mahasiswa ke Antrian
+2. Layani Mahasiswa
+3. Lihat Mahasiswa Terdepan
+4. Lihat Semua Antrian
+5. Jumlah Mahasiswa dalam Antrian
+0. Keluar
+Pilih menu: 2
+Melayani mahasiswa: 213 - a - e - 2
+
+=== Menu Antrian Layanan Akademik ===
+1. Tambah Mahasiswa ke Antrian
+2. Layani Mahasiswa
+3. Lihat Mahasiswa Terdepan
+4. Lihat Semua Antrian
+5. Jumlah Mahasiswa dalam Antrian
+0. Keluar
+Pilih menu: 4
+Daftar Mahasiswa dalam Antrian:
+NIM - NAMAjj - PRODI - KELAS
+1. b - d - d - 3
+
+=== Menu Antrian Layanan Akademik ===
+1. Tambah Mahasiswa ke Antrian
+2. Layani Mahasiswa
+3. Lihat Mahasiswa Terdepan
+4. Lihat Semua Antrian
+5. Jumlah Mahasiswa dalam Antrian
+0. Keluar
+Pilih menu: 5
+Jumlah dalam antrian: 1
+
+=== Menu Antrian Layanan Akademik ===
+1. Tambah Mahasiswa ke Antrian
+2. Layani Mahasiswa
+3. Lihat Mahasiswa Terdepan
+4. Lihat Semua Antrian
+5. Jumlah Mahasiswa dalam Antrian
+0. Keluar
+Pilih menu: 0
+Terima kasih.
+
+E:\Java\AGS_2026>
+
+E:\Java\AGS_2026>
+E:\Java\AGS_2026> e: && cd e:\Java\AGS_2026 && cmd /C "C:\Users\asus\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\latest\bin\java.exe -XX:+ShowCodeDetailsInExceptionMessages -cp E:\Java\AGS_2026\bin p10.LayananAkademikSIAKAD "
+
+=== Menu Antrian Layanan Akademik ===
+1. Tambah Mahasiswa ke Antrian
+2. Layani Mahasiswa
+3. Lihat Mahasiswa Terdepan
+4. Lihat Semua Antrian
+5. Jumlah Mahasiswa dalam Antrian
+6. Cek Antrian paling belakang
+0. Keluar
+Pilih menu: 1
+NIM : 123
+Nama: aa
+Prodi: ti
+Kelas: 1a
+aa berhasil masuk ke antrian.
+
+=== Menu Antrian Layanan Akademik ===
+1. Tambah Mahasiswa ke Antrian
+2. Layani Mahasiswa
+3. Lihat Mahasiswa Terdepan
+4. Lihat Semua Antrian
+5. Jumlah Mahasiswa dalam Antrian
+6. Cek Antrian paling belakang
+0. Keluar
+Pilih menu: 1
+NIM : bb
+Nama: bbbb
+Prodi: sib
+Kelas: 1g
+bbbb berhasil masuk ke antrian.
+
+=== Menu Antrian Layanan Akademik ===
+1. Tambah Mahasiswa ke Antrian
+2. Layani Mahasiswa
+3. Lihat Mahasiswa Terdepan
+4. Lihat Semua Antrian
+5. Jumlah Mahasiswa dalam Antrian
+6. Cek Antrian paling belakang
+0. Keluar
+Pilih menu: 6
+Mahasiswa paling belakang: NIM NAMA PRODI KELAS
+bb - bbbb - sib - 1g
+
+=== Menu Antrian Layanan Akademik ===
+1. Tambah Mahasiswa ke Antrian
+2. Layani Mahasiswa
+3. Lihat Mahasiswa Terdepan
+4. Lihat Semua Antrian
+5. Jumlah Mahasiswa dalam Antrian
+6. Cek Antrian paling belakang
+0. Keluar
+Pilih menu: 0
+Terima kasih.
+
+```
