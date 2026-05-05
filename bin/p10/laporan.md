@@ -347,5 +347,190 @@ bb - bbbb - sib - 1g
 0. Keluar
 Pilih menu: 0
 Terima kasih.
+```
 
+## 2.3 Tugas
+```
+=== SISTEM ANTRIAN KRS DPA ===
+1. Tambah Antrian Mahasiswa
+2. Panggil Antrian (2 Mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Terdepan
+5. Tampilkan Antrian Terakhir
+6. Statistik & Sisa DPA
+7. Kosongkan Antrian
+0. Keluar
+Pilih: 1
+NIM: 123
+Nama: jojo
+Prodi: ti
+Kelas: 1f
+jojo berhasil masuk antrian.
+
+=== SISTEM ANTRIAN KRS DPA ===
+1. Tambah Antrian Mahasiswa
+2. Panggil Antrian (2 Mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Terdepan
+5. Tampilkan Antrian Terakhir
+6. Statistik & Sisa DPA
+7. Kosongkan Antrian
+0. Keluar
+Pilih: 1
+NIM: 111
+Nama: aaaaa
+Prodi: sib
+Kelas: 2b
+aaaaa berhasil masuk antrian.
+
+=== SISTEM ANTRIAN KRS DPA ===
+1. Tambah Antrian Mahasiswa
+2. Panggil Antrian (2 Mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Terdepan
+5. Tampilkan Antrian Terakhir
+6. Statistik & Sisa DPA
+7. Kosongkan Antrian
+0. Keluar
+Pilih: 2
+Memanggil antrian untuk proses KRS:
+- jojo (Selesai KRS)
+- aaaaa (Selesai KRS)
+
+=== SISTEM ANTRIAN KRS DPA ===
+1. Tambah Antrian Mahasiswa
+2. Panggil Antrian (2 Mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Terdepan
+5. Tampilkan Antrian Terakhir
+6. Statistik & Sisa DPA
+7. Kosongkan Antrian
+0. Keluar
+Pilih: 3
+Antrian kosong.
+
+=== SISTEM ANTRIAN KRS DPA ===
+1. Tambah Antrian Mahasiswa
+2. Panggil Antrian (2 Mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Terdepan
+5. Tampilkan Antrian Terakhir
+6. Statistik & Sisa DPA
+7. Kosongkan Antrian
+0. Keluar
+Pilih: 1
+NIM: 199
+Nama: bib
+Prodi: ti
+Kelas: 1a
+bib berhasil masuk antrian.
+
+=== SISTEM ANTRIAN KRS DPA ===
+1. Tambah Antrian Mahasiswa
+2. Panggil Antrian (2 Mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Terdepan
+5. Tampilkan Antrian Terakhir
+6. Statistik & Sisa DPA
+7. Kosongkan Antrian
+0. Keluar
+Pilih: 1
+NIM: 3456
+Nama: kaka
+Prodi: sib
+Kelas: 1a
+kaka berhasil masuk antrian.
+
+=== SISTEM ANTRIAN KRS DPA ===
+1. Tambah Antrian Mahasiswa
+2. Panggil Antrian (2 Mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Terdepan
+5. Tampilkan Antrian Terakhir
+6. Statistik & Sisa DPA
+7. Kosongkan Antrian
+0. Keluar
+Pilih: 3
+Daftar Antrian (Seluruhnya):
+199 - bib - ti - 1a
+3456 - kaka - sib - 1a
+
+=== SISTEM ANTRIAN KRS DPA ===
+1. Tambah Antrian Mahasiswa
+2. Panggil Antrian (2 Mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Terdepan
+5. Tampilkan Antrian Terakhir
+6. Statistik & Sisa DPA
+7. Kosongkan Antrian
+0. Keluar
+Pilih: 6
+--- STATISTIK ---
+Jumlah antrian saat ini     : 2
+Mahasiswa sudah selesai KRS : 2
+Sisa mahasiswa DPA (belum)  : 28
+
+=== SISTEM ANTRIAN KRS DPA ===
+1. Tambah Antrian Mahasiswa
+2. Panggil Antrian (2 Mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Terdepan
+5. Tampilkan Antrian Terakhir
+6. Statistik & Sisa DPA
+7. Kosongkan Antrian
+0. Keluar
+Pilih: 5
+Antrian Paling Akhir:
+3456 - kaka - sib - 1a
+
+=== SISTEM ANTRIAN KRS DPA ===
+1. Tambah Antrian Mahasiswa
+2. Panggil Antrian (2 Mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Terdepan
+5. Tampilkan Antrian Terakhir
+6. Statistik & Sisa DPA
+7. Kosongkan Antrian
+0. Keluar
+Pilih: 4
+2 Antrian Terdepan:
+199 - bib - ti - 1a
+3456 - kaka - sib - 1a
+
+=== SISTEM ANTRIAN KRS DPA ===
+1. Tambah Antrian Mahasiswa
+2. Panggil Antrian (2 Mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Terdepan
+5. Tampilkan Antrian Terakhir
+6. Statistik & Sisa DPA
+7. Kosongkan Antrian
+0. Keluar
+Pilih: 7
+Antrian berhasil dikosongkan.
+
+=== SISTEM ANTRIAN KRS DPA ===
+1. Tambah Antrian Mahasiswa
+2. Panggil Antrian (2 Mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Terdepan
+5. Tampilkan Antrian Terakhir
+6. Statistik & Sisa DPA
+7. Kosongkan Antrian
+0. Keluar
+Pilih: 3
+Antrian kosong.
+
+=== SISTEM ANTRIAN KRS DPA ===
+1. Tambah Antrian Mahasiswa
+2. Panggil Antrian (2 Mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Terdepan
+5. Tampilkan Antrian Terakhir
+6. Statistik & Sisa DPA
+7. Kosongkan Antrian
+0. Keluar
+Pilih: 0
+
+E:\Java\AGS_2026>
 ```
