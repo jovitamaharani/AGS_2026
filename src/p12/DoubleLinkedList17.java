@@ -115,4 +115,21 @@ public class DoubleLinkedList17 {
             System.out.println("Data berhasil ditemukan.");
         }
     }
+
+    public void printReverse() {
+        if (isEmpty()) {
+            System.out.println("Linked List masih kosong.");
+            return;
+        }
+
+        Node17 current = tail;
+        System.out.println("=== MENAMPILKAN DATA SECARA TERBALIK (TAIL -> HEAD) ===");
+
+        while (current != null) {
+            current.data.tampil();
+            System.out.println("--------------------");
+
+            current = current.prev;
+        }
+    }
 }
