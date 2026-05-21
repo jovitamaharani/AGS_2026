@@ -248,3 +248,77 @@ E:\Java\AGS_2026>
 ```
 
 ## 12.3 Percobaan 2: Operasi Penghapusan pada Double Linked List
+```
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+0. Keluar
+Pilih menu: 5
+Linked List masih kosong.
+
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+0. Keluar
+Pilih menu: 1
+Masukkan NIM   : 1111
+Masukkan Nama  : Potter
+Masukkan Kelas : 1B
+Masukkan IPK   : 3,55
+
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+0. Keluar
+Pilih menu: 5
+Data berhasil dihapus dari akhir.
+
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+0. Keluar
+Pilih menu: 6
+Linked List masih kosong.
+
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+0. Keluar
+Pilih menu: 0
+Program selesai.
+```
+
+Pertanyaan:
+1. Perhatikan potongan kode berikut pada method removeFirst():
+head = head.next;
+head.prev = null;
+Jelaskan fungsi masing-masing statement tersebut pada proses penghapusan node!
+- head = head.next; berfungsi untuk mengarahkan pointer head ke node berikutnya, sehingga node pertama yang akan dihapus tidak lagi menjadi bagian dari linked list.
+- head.prev = null; berfungsi untuk menghapus referensi ke node yang dihapus pada
+2. Modifikasi method removeFirst() dan removeLast() agar program menampilkan data
+yang berhasil dihapus!
