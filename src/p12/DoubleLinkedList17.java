@@ -78,6 +78,7 @@ public class DoubleLinkedList17 {
             System.out.println("Linked List masih kosong.");
             return;
         }
+        Mahasiswa17 dataDihapus = head.data;
         Node17 current = head;
         head = head.next;
         if (head == null) {
@@ -86,6 +87,8 @@ public class DoubleLinkedList17 {
             head.prev = null;
         }
         System.out.println("Data berhasil dihapus dari awal.");
+        dataDihapus.tampil();
+        System.out.println("--------------------");
     }
 
     public void removeLast() {
@@ -93,6 +96,7 @@ public class DoubleLinkedList17 {
             System.out.println("Linked List masih kosong.");
             return;
         }
+        Mahasiswa17 dataDihapus = head.data;
         Node17 current = tail;
         tail = tail.prev;
         if (tail == null) {
@@ -101,6 +105,8 @@ public class DoubleLinkedList17 {
             tail.next = null;
         }
         System.out.println("Data berhasil dihapus dari akhir.");
+        dataDihapus.tampil();
+        System.out.println("--------------------");
     }
 
     public void search(String keyNim) {

@@ -322,3 +322,36 @@ Jelaskan fungsi masing-masing statement tersebut pada proses penghapusan node!
 - head.prev = null; berfungsi untuk menghapus referensi ke node yang dihapus pada
 2. Modifikasi method removeFirst() dan removeLast() agar program menampilkan data
 yang berhasil dihapus!
+```
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+0. Keluar
+Pilih menu: 1
+Masukkan NIM   : 1111
+Masukkan Nama  : iji
+Masukkan Kelas : 1A
+Masukkan IPK   : 4
+
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+0. Keluar
+Pilih menu: 5
+Data berhasil dihapus dari akhir.
+Nama Mahasiswa: iji
+Kelas: 1A
+Nim: 1111
+IPK: 4.0
+--------------------
+```
