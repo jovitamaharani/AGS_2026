@@ -355,3 +355,417 @@ Nim: 1111
 IPK: 4.0
 --------------------
 ```
+
+## 12.5 Tugas Praktikum
+```
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+8. Hapus data setelah NIM tertentu
+9. Hapus data pada indeks tertentu
+10. Cetak data pertama (Get First)
+11. Cetak data terakhir (Get Last)
+12. Cetak data indeks tertentu (Get Index)
+13. Tampilkan jumlah data (Size)
+0. Keluar
+Pilih menu: 2
+Masukkan NIM   : 1111
+Masukkan Nama  : asa
+Masukkan Kelas : 1A
+Masukkan IPK   : 4
+
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+8. Hapus data setelah NIM tertentu
+9. Hapus data pada indeks tertentu
+10. Cetak data pertama (Get First)
+11. Cetak data terakhir (Get Last)
+12. Cetak data indeks tertentu (Get Index)
+13. Tampilkan jumlah data (Size)
+0. Keluar
+Pilih menu: 1
+Masukkan NIM   : 2222
+Masukkan Nama  : jiji
+Masukkan Kelas : 1B
+Masukkan IPK   : 3,9
+
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+8. Hapus data setelah NIM tertentu
+9. Hapus data pada indeks tertentu
+10. Cetak data pertama (Get First)
+11. Cetak data terakhir (Get Last)
+12. Cetak data indeks tertentu (Get Index)
+13. Tampilkan jumlah data (Size)
+0. Keluar
+Pilih menu: 3
+Masukkan NIM yang dicari: bubu
+Masukkan data baru: 
+Masukkan NIM   : 5555
+Masukkan Nama  : re
+Masukkan Kelas : 1C
+Masukkan IPK   : 3
+Data dengan NIM bubu tidak ditemukan.
+
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+8. Hapus data setelah NIM tertentu
+9. Hapus data pada indeks tertentu
+10. Cetak data pertama (Get First)
+11. Cetak data terakhir (Get Last)
+12. Cetak data indeks tertentu (Get Index)
+13. Tampilkan jumlah data (Size)
+0. Keluar
+Pilih menu: 3
+Masukkan NIM yang dicari: 2222
+Masukkan data baru: 
+Masukkan NIM   : 5555
+Masukkan Nama  : bubu
+Masukkan Kelas : 1H
+Masukkan IPK   : 3,9
+Data berhasil disisipkan setelah NIM 2222
+
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+8. Hapus data setelah NIM tertentu
+9. Hapus data pada indeks tertentu
+10. Cetak data pertama (Get First)
+11. Cetak data terakhir (Get Last)
+12. Cetak data indeks tertentu (Get Index)
+13. Tampilkan jumlah data (Size)
+0. Keluar
+Pilih menu: 
+
+6   
+Nama Mahasiswa: jiji
+Kelas: 1B
+Nim: 2222
+IPK: 3.9
+--------------------
+Nama Mahasiswa: bubu
+Kelas: 1H
+Nim: 5555
+IPK: 3.9
+--------------------
+Nama Mahasiswa: asa
+Kelas: 1A
+Nim: 1111
+IPK: 4.0
+--------------------
+
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+8. Hapus data setelah NIM tertentu
+9. Hapus data pada indeks tertentu
+10. Cetak data pertama (Get First)
+11. Cetak data terakhir (Get Last)
+12. Cetak data indeks tertentu (Get Index)
+13. Tampilkan jumlah data (Size)
+0. Keluar
+Pilih menu: 7
+=== MENAMPILKAN DATA SECARA TERBALIK (TAIL -> HEAD) ===
+Nama Mahasiswa: asa
+Kelas: 1A
+Nim: 1111
+IPK: 4.0
+--------------------
+Nama Mahasiswa: bubu
+Kelas: 1H
+Nim: 5555
+IPK: 3.9
+--------------------
+Nama Mahasiswa: jiji
+Kelas: 1B
+Nim: 2222
+IPK: 3.9
+--------------------
+
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+8. Hapus data setelah NIM tertentu
+9. Hapus data pada indeks tertentu
+10. Cetak data pertama (Get First)
+11. Cetak data terakhir (Get Last)
+12. Cetak data indeks tertentu (Get Index)
+13. Tampilkan jumlah data (Size)
+0. Keluar
+Pilih menu: 8
+Masukkan NIM acuan: 1111
+Tidak ada data setelah NIM 1111 (NIM ini berada di posisi paling akhir).
+
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+8. Hapus data setelah NIM tertentu
+9. Hapus data pada indeks tertentu
+10. Cetak data pertama (Get First)
+11. Cetak data terakhir (Get Last)
+12. Cetak data indeks tertentu (Get Index)
+13. Tampilkan jumlah data (Size)
+0. Keluar
+Pilih menu: 8
+Masukkan NIM acuan: 2222
+Data setelah NIM 2222 berhasil dihapus:
+Nama Mahasiswa: bubu
+Kelas: 1H
+Nim: 5555
+IPK: 3.9
+--------------------
+
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+8. Hapus data setelah NIM tertentu
+9. Hapus data pada indeks tertentu
+10. Cetak data pertama (Get First)
+11. Cetak data terakhir (Get Last)
+12. Cetak data indeks tertentu (Get Index)
+13. Tampilkan jumlah data (Size)
+0. Keluar
+Pilih menu: 10
+=== DATA PERTAMA (HEAD) ===
+Nama Mahasiswa: jiji
+Kelas: 1B
+Nim: 2222
+IPK: 3.9
+--------------------
+
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+8. Hapus data setelah NIM tertentu
+9. Hapus data pada indeks tertentu
+10. Cetak data pertama (Get First)
+11. Cetak data terakhir (Get Last)
+12. Cetak data indeks tertentu (Get Index)
+13. Tampilkan jumlah data (Size)
+0. Keluar
+Pilih menu: 11
+=== DATA TERAKHIR (TAIL) ===
+Nama Mahasiswa: asa
+Kelas: 1A
+Nim: 1111
+IPK: 4.0
+--------------------
+
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+8. Hapus data setelah NIM tertentu
+9. Hapus data pada indeks tertentu
+10. Cetak data pertama (Get First)
+11. Cetak data terakhir (Get Last)
+12. Cetak data indeks tertentu (Get Index)
+13. Tampilkan jumlah data (Size)
+0. Keluar
+Pilih menu: 6
+Nama Mahasiswa: jiji
+Kelas: 1B
+Nim: 2222
+IPK: 3.9
+--------------------
+Nama Mahasiswa: asa
+Kelas: 1A
+Nim: 1111
+IPK: 4.0
+--------------------
+
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+8. Hapus data setelah NIM tertentu
+9. Hapus data pada indeks tertentu
+10. Cetak data pertama (Get First)
+11. Cetak data terakhir (Get Last)
+12. Cetak data indeks tertentu (Get Index)
+13. Tampilkan jumlah data (Size)
+0. Keluar
+Pilih menu: 7
+=== MENAMPILKAN DATA SECARA TERBALIK (TAIL -> HEAD) ===
+Nama Mahasiswa: asa
+Kelas: 1A
+Nim: 1111
+IPK: 4.0
+--------------------
+Nama Mahasiswa: jiji
+Kelas: 1B
+Nim: 2222
+IPK: 3.9
+--------------------
+
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+8. Hapus data setelah NIM tertentu
+9. Hapus data pada indeks tertentu
+10. Cetak data pertama (Get First)
+11. Cetak data terakhir (Get Last)
+12. Cetak data indeks tertentu (Get Index)
+13. Tampilkan jumlah data (Size)
+0. Keluar
+Pilih menu: 11
+=== DATA TERAKHIR (TAIL) ===
+Nama Mahasiswa: asa
+Kelas: 1A
+Nim: 1111
+IPK: 4.0
+--------------------
+
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+8. Hapus data setelah NIM tertentu
+9. Hapus data pada indeks tertentu
+10. Cetak data pertama (Get First)
+11. Cetak data terakhir (Get Last)
+12. Cetak data indeks tertentu (Get Index)
+13. Tampilkan jumlah data (Size)
+0. Keluar
+Pilih menu: 10
+=== DATA PERTAMA (HEAD) ===
+Nama Mahasiswa: jiji
+Kelas: 1B
+Nim: 2222
+IPK: 3.9
+--------------------
+
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+8. Hapus data setelah NIM tertentu
+9. Hapus data pada indeks tertentu
+10. Cetak data pertama (Get First)
+11. Cetak data terakhir (Get Last)
+12. Cetak data indeks tertentu (Get Index)
+13. Tampilkan jumlah data (Size)
+0. Keluar
+Pilih menu: 12
+Masukkan indeks data yang ingin dilihat: 1
+=== DATA PADA INDEKS KE-1 ===
+Nama Mahasiswa: asa
+Kelas: 1A
+Nim: 1111
+IPK: 4.0
+--------------------
+
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+8. Hapus data setelah NIM tertentu
+9. Hapus data pada indeks tertentu
+10. Cetak data pertama (Get First)
+11. Cetak data terakhir (Get Last)
+12. Cetak data indeks tertentu (Get Index)
+13. Tampilkan jumlah data (Size)
+0. Keluar
+Pilih menu: 13
+Jumlah total data mahasiswa saat ini: 2
+--------------------
+Program selesai.
+
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah data di awal
+2. Tambah data di akhir
+3. Sisipkan data di tengah (setelah NIM)
+4. Hapus data di awal
+5. Hapus data di akhir
+6. Tampilkan data
+7. Tampilkan data secara terbalik (Mundur)
+8. Hapus data setelah NIM tertentu
+9. Hapus data pada indeks tertentu
+10. Cetak data pertama (Get First)
+11. Cetak data terakhir (Get Last)
+12. Cetak data indeks tertentu (Get Index)
+13. Tampilkan jumlah data (Size)
+0. Keluar
+Pilih menu: 0
+Program selesai.
+
+E:\Java\AGS_2026>
+```

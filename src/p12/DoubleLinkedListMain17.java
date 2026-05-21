@@ -30,6 +30,12 @@ public class DoubleLinkedListMain17 {
             System.out.println("5. Hapus data di akhir");
             System.out.println("6. Tampilkan data");
             System.out.println("7. Tampilkan data secara terbalik (Mundur)");
+            System.out.println("8. Hapus data setelah NIM tertentu");
+            System.out.println("9. Hapus data pada indeks tertentu");
+            System.out.println("10. Cetak data pertama (Get First)");
+            System.out.println("11. Cetak data terakhir (Get Last)");
+            System.out.println("12. Cetak data indeks tertentu (Get Index)");
+            System.out.println("13. Tampilkan jumlah data (Size)");
             System.out.println("0. Keluar");
             System.out.print("Pilih menu: ");
             pilihan = scan.nextInt();
@@ -63,6 +69,32 @@ public class DoubleLinkedListMain17 {
                 case 7:
                     list.printReverse();
                     break;
+                case 8:
+                    System.out.print("Masukkan NIM acuan: ");
+                    String nimKunci = scan.nextLine();
+                    list.removeAfter(nimKunci);
+                    break;
+                case 9:
+                    System.out.print("Masukkan indeks data yang akan dihapus: ");
+                    int idxHapus = scan.nextInt();
+                    scan.nextLine();
+                    list.remove(idxHapus);
+                    break;
+                case 10:
+                    list.getFirst();
+                    break;
+                case 11:
+                    list.getLast();
+                    break;
+                case 12:
+                    System.out.print("Masukkan indeks data yang ingin dilihat: ");
+                    int idxCari = scan.nextInt();
+                    scan.nextLine();
+                    list.getIndex(idxCari);
+                    break;
+                case 13:
+                    System.out.println("Jumlah total data mahasiswa saat ini: " + list.size());
+                    System.out.println("--------------------");
                 case 0:
                     System.out.println("Program selesai.");
                     break;
