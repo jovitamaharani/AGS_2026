@@ -174,6 +174,69 @@ public class BinaryTree17 {
         }
     }
 
-    
+    public void addRekursif(Mahasiswa17 mahasiswa) {
+        root = addRekursifHelper(root, mahasiswa);
+    }
+
+    private Node17 addRekursifHelper(Node17 current, Mahasiswa17 mahasiswa) {
+        if (current == null) {
+            return new Node17(mahasiswa);
+        }
+
+        if (mahasiswa.ipk < current.mahasiswa.ipk) {
+            current.left = addRekursifHelper(current.left, mahasiswa);
+        } else if (mahasiswa.ipk > current.mahasiswa.ipk) {
+            current.right = addRekursifHelper(current.right, mahasiswa);
+        }
+        
+        return current;
+    }
+
+    public void cariMinIPK() {
+        if (isEmpty()) {
+            System.out.println("Tree kosong, tidak ada data.");
+            return;
+        }
+        Node17 current = root;
+        while (current.left != null) {
+            current = current.left;
+        }
+        System.out.println("--- Mahasiswa Terkecil (Min IPK) ---");
+        current.mahasiswa.tampilInformasi();
+    }
+
+    public void cariMaxIPK() {
+        if (isEmpty()) {
+            System.out.println("Tree kosong, tidak ada data.");
+            return;
+        }
+        Node17 current = root;
+        while (current.right != null) {
+            current = current.right;
+        }
+        System.out.println("--- Mahasiswa Terbesar (Max IPK) ---");
+        current.mahasiswa.tampilInformasi();
+    }
+
+    public void tampilMahasiswaIPKdiAtas(double ipkBatas) {
+        if (isEmpty()) {
+            System.out.println("Tree kosong.");
+            return;
+        }
+        System.out.println("--- Mahasiswa dengan IPK di atas " + ipkBatas + " ---");
+        tampilIPKdiAtasHelper(root, ipkBatas);
+    }
+
+    private void tampilIPKdiAtasHelper(Node17 node, double ipkBatas) {
+        if (node != null) {
+            tampilIPKdiAtasHelper(node.left, ipkBatas);
+            
+            if (node.mahasiswa.ipk > ipkBatas) {
+                node.mahasiswa.tampilInformasi();
+            }
+            
+            tampilIPKdiAtasHelper(node.right, ipkBatas);
+        }
+    } 
 
 }

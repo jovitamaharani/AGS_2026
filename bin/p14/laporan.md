@@ -138,3 +138,31 @@ Pertanyaan:
 - Statement int idxLast = 6 digunakan untuk menentukan indeks terakhir dari array dataMahasiswas yang berisi data mahasiswa. Dengan menetapkan nilai idxLast ke 6, kita memberi tahu program bahwa hanya elemen-elemen dari indeks 0 hingga 6 yang akan diproses dalam binary tree. Hal ini penting untuk memastikan bahwa hanya data yang valid dan relevan yang akan digunakan dalam operasi traversal atau pencarian pada binary tree, sehingga menghindari akses ke elemen-elemen yang tidak terisi atau tidak relevan dalam array. Dengan menetapkan idxLast, kita dapat mengontrol jumlah data yang akan diproses dan memastikan bahwa operasi pada binary tree berjalan dengan benar sesuai dengan jumlah data yang tersedia.
 6. Mengapa indeks 2*idxStart+1 dan 2*idxStart+2 digunakan dalam pemanggilan rekursif, dan apa kaitannya dengan struktur pohon biner yang disusun dalam array?
 - Indeks 2*idxStart+1 dan 2*idxStart+2 digunakan dalam pemanggilan rekursif karena dalam representasi array dari binary tree, untuk sebuah node pada indeks idxStart, left child berada pada indeks 2*idxStart+1 dan right child berada pada indeks 2*idxStart+2. Kaitannya dengan struktur pohon biner adalah bahwa representasi ini memungkinkan kita untuk mengakses anak-anak dari suatu node secara langsung menggunakan operasi aritmatika, tanpa perlu menggunakan pointer seperti dalam struktur data linked list. Dengan menggunakan indeks ini, kita dapat dengan mudah menavigasi melalui pohon biner yang disimpan dalam array dan melakukan operasi seperti traversal, penambahan, atau penghapusan node dengan efisien.
+
+## 14.4 Tugas Praktikum
+```
+Semua Data (InOrder):
+NIM: 244160185 Nama: Candra Kelas: C IPK: 3.21
+NIM: 244160220 Nama: Dewi Kelas: B IPK: 3.54
+NIM: 244160121 Nama: Ali Kelas: A IPK: 3.57
+NIM: 244160131 Nama: Devi Kelas: A IPK: 3.72
+NIM: 244160221 Nama: Badar Kelas: B IPK: 3.85
+
+--- Mahasiswa Terkecil (Min IPK) ---
+NIM: 244160185 Nama: Candra Kelas: C IPK: 3.21
+--- Mahasiswa Terbesar (Max IPK) ---
+NIM: 244160221 Nama: Badar Kelas: B IPK: 3.85
+
+--- Mahasiswa dengan IPK di atas 3.55 ---
+NIM: 244160121 Nama: Ali Kelas: A IPK: 3.57
+NIM: 244160131 Nama: Devi Kelas: A IPK: 3.72
+NIM: 244160221 Nama: Badar Kelas: B IPK: 3.85
+
+========== UJI COBA BINARY TREE ARRAY ==========
+
+Traversal PreOrder pada Array Tree:
+NIM: 244160121 Nama: Ali Kelas: A IPK: 3.57
+NIM: 244160185 Nama: Candra Kelas: C IPK: 3.41
+NIM: 244160220 Nama: Dewi Kelas: B IPK: 3.35
+NIM: 244160221 Nama: Badar Kelas: B IPK: 3.75
+```
