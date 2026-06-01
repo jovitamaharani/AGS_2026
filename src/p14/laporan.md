@@ -113,5 +113,28 @@ i. Jika node induknya bukan root, maka node pengganti akan menjadi nilai dari no
 j. Setelah node pengganti dihapus, kita menghapus referensi ke node tersebut dari variabel parent.
 k. Setelah node yang akan dihapus dihapus, kita menghapus referensi ke node tersebut dari variabel parent.
 
+## 14.3 Kegiatan Praktikum 2
+```
+Inorder Traversal Mahasiswa: 
+NIM: 244160220 Nama: Dewi Kelas: B IPK: 3.35
+NIM: 244160185 Nama: Candra Kelas: C IPK: 3.41
+NIM: 244160131 Nama: Devi Kelas: A IPK: 3.48
+NIM: 244160121 Nama: Ali Kelas: A IPK: 3.57
+NIM: 244160205 Nama: Ehsan Kelas: D IPK: 3.61
+NIM: 244160221 Nama: Badar Kelas: B IPK: 3.75
+NIM: 244160170 Nama: Fizi Kelas: B IPK: 3.86
+```
 
-
+Pertanyaan:
+1. Apakah kegunaan dari atribut data dan idxLast yang ada di class BinaryTreeArray?
+- Atribut data digunakan untuk menyimpan data mahasiswa dalam array. Atribut idxLast digunakan untuk menyimpan indeks terakhir dari array data. Atribut ini digunakan untuk mengetahui posisi terakhir dari data yang disimpan dalam array, sehingga kita dapat menambahkan data baru ke posisi berikutnya setelah idxLast. Dengan menggunakan atribut idxLast, kita dapat dengan mudah mengelola dan mengakses data mahasiswa dalam array tanpa harus mencari posisi kosong secara manual.
+2. Apakah kegunaan dari method populateData()?
+- Method populateData() digunakan untuk mengisi data mahasiswa ke dalam array dataMahasiswa. Method ini menerima parameter berupa array dataMhs yang berisi data mahasiswa dan idxLast yang menunjukkan indeks terakhir dari data yang disimpan. Dengan menggunakan method ini, kita dapat dengan mudah mengisi data mahasiswa ke dalam array dan memperbarui nilai idxLast sesuai dengan jumlah data yang telah disimpan. Method ini membantu dalam proses pengelolaan data mahasiswa dalam struktur array yang digunakan untuk menyimpan informasi dalam bentuk binary tree.
+3. Apakah kegunaan dari method traverseInOrder()?
+- Method traverseInOrder() digunakan untuk melakukan traversal in-order pada binary tree yang disimpan dalam array. Traversal in-order adalah metode untuk mengunjungi node dalam urutan tertentu, yaitu mengunjungi node anak kiri terlebih dahulu, kemudian node induk, dan terakhir node anak kanan. Dengan menggunakan method ini, kita dapat menampilkan data mahasiswa dalam urutan yang terurut berdasarkan nilai IPK atau atribut lainnya yang digunakan sebagai kriteria pengurutan dalam binary tree. Method ini membantu dalam menampilkan data mahasiswa dengan cara yang terstruktur dan mudah dipahami, serta memungkinkan kita untuk melihat hubungan antara node dalam binary tree berdasarkan urutan tertentu.
+4. Jika suatu node binary tree disimpan dalam array indeks 2, maka di indeks berapakah posisi left child dan right child masing-masing?
+- Jika suatu node binary tree disimpan dalam array indeks 2, maka posisi left child berada di indeks 5 (2*2+1) dan posisi right child berada di indeks 6 (2*2+2).
+5. Apa kegunaan statement int idxLast = 6 pada praktikum 2 percobaan nomor 4?
+- Statement int idxLast = 6 digunakan untuk menentukan indeks terakhir dari array dataMahasiswas yang berisi data mahasiswa. Dengan menetapkan nilai idxLast ke 6, kita memberi tahu program bahwa hanya elemen-elemen dari indeks 0 hingga 6 yang akan diproses dalam binary tree. Hal ini penting untuk memastikan bahwa hanya data yang valid dan relevan yang akan digunakan dalam operasi traversal atau pencarian pada binary tree, sehingga menghindari akses ke elemen-elemen yang tidak terisi atau tidak relevan dalam array. Dengan menetapkan idxLast, kita dapat mengontrol jumlah data yang akan diproses dan memastikan bahwa operasi pada binary tree berjalan dengan benar sesuai dengan jumlah data yang tersedia.
+6. Mengapa indeks 2*idxStart+1 dan 2*idxStart+2 digunakan dalam pemanggilan rekursif, dan apa kaitannya dengan struktur pohon biner yang disusun dalam array?
+- Indeks 2*idxStart+1 dan 2*idxStart+2 digunakan dalam pemanggilan rekursif karena dalam representasi array dari binary tree, untuk sebuah node pada indeks idxStart, left child berada pada indeks 2*idxStart+1 dan right child berada pada indeks 2*idxStart+2. Kaitannya dengan struktur pohon biner adalah bahwa representasi ini memungkinkan kita untuk mengakses anak-anak dari suatu node secara langsung menggunakan operasi aritmatika, tanpa perlu menggunakan pointer seperti dalam struktur data linked list. Dengan menggunakan indeks ini, kita dapat dengan mudah menavigasi melalui pohon biner yang disimpan dalam array dan melakukan operasi seperti traversal, penambahan, atau penghapusan node dengan efisien.
