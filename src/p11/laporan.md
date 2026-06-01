@@ -36,3 +36,24 @@ Pertanyaan:
 2. Jelaskan kegunaan variable temp secara umum pada setiap method!
 - Variable temp digunakan sebagai pointer sementara untuk menelusuri linked list. Dalam setiap method, temp digunakan untuk menyimpan alamat node saat ini yang sedang diproses, sehingga kita dapat mengakses data dan node berikutnya dalam linked list.
 3. Lakukan modifikasi agar data dapat ditambahkan dari keyboard!
+```
+--- INPUT DATA MAHASISWA ---
+Masukkan Jumlah Mahasiswa yang ingin diinput: 2
+
+Data Mahasiswa ke-1
+NIM   : 1212
+Nama  : aaaa
+Kelas : 1a
+IPK   : 4
+
+Data Mahasiswa ke-2
+NIM   : 2222
+Nama  : bbb
+Kelas : 1a
+IPK   : 3,9
+
+=================================
+Isi Linked List:
+1212    aaaa    1a      4.0
+2222    bbb     1a      3.9
+```
