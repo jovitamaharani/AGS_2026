@@ -21,6 +21,8 @@ public class DoubleLinkedListMain17 {
             System.out.println("2. Cetak Antrian");
             System.out.println("3. Hapus Antrian dan Pesan");
             System.out.println("4. Laporan Pesanan");
+            // membuat pilihan untuk melihat rekap antrian
+            System.out.println("5. Rekap Antrian");
             System.out.println("0. Keluar");
             System.out.print("Pilih menu : ");
             pilihan = scan.nextInt();
@@ -47,6 +49,7 @@ public class DoubleLinkedListMain17 {
                     String namaMenu = scan.nextLine();
                     System.out.print("Harga        : ");
                     int harga = scan.nextInt();
+                    System.out.println("Jam Antri     : " + java.time.LocalTime.now());
                     scan.nextLine();
                     
                     resto.hapusAntreanDanInputPesanan(kode, namaMenu, harga);
@@ -56,12 +59,24 @@ public class DoubleLinkedListMain17 {
                     resto.cetakLaporanPesanan();
                     break;
 
-                case 0:
-                    System.out.println("Terima kasih! Program selesai.");
-                    break;
+                case 5:
+                    // membuat rekap antrian per jam antri (hanya jam tanpa menit), dari data yang sudah ada di doublelinkedlist, yang diinputkan di case 3
+                    LinkedListRekapAntrian rekapAntrian = new LinkedListRekapAntrian();
+                    rekapAntrian.tambahJam("08:00", 1);
+                    rekapAntrian.tambahJam("09:00", 3);
+                    rekapAntrian.tambahJam("10:00", 5);
+                    rekapAntrian.tambahJam("11:00", 7);
+                    rekapAntrian.tambahJam("12:00", 9);
+                    rekapAntrian.cetakRekapAntrian();
+                    
 
+                    break;
+                
                 default:
-                    System.out.println("Pilihan menu tidak valid! Silakan coba lagi.");
+                    if (pilihan != 0) {
+                        System.out.println("Pilihan tidak valid, silakan coba lagi.");
+                    }
+                    break;
             }
         } while (pilihan != 0);
 
